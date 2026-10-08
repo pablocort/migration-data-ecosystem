@@ -1,0 +1,181 @@
+country,iso2,host,population,host_name
+Antigua and Barbuda,AG,BE,4.0,Belgium
+Antigua and Barbuda,AG,IT,29.0,Italy
+Antigua and Barbuda,AG,NL,35.0,Netherlands
+Antigua and Barbuda,AG,OTHER,31.0,Other reporting countries
+Antigua and Barbuda,AG,SE,5.0,Sweden
+Argentina,AR,BE,3430.0,Belgium
+Argentina,AR,ES,415987.0,Spain
+Argentina,AR,IT,102855.0,Italy
+Argentina,AR,NL,7181.0,Netherlands
+Argentina,AR,OTHER,9920.0,Other reporting countries
+Argentina,AR,SE,4502.0,Sweden
+Bahamas,BS,BE,18.0,Belgium
+Bahamas,BS,IT,114.0,Italy
+Bahamas,BS,NL,85.0,Netherlands
+Bahamas,BS,OTHER,96.0,Other reporting countries
+Bahamas,BS,SE,41.0,Sweden
+Barbados,BB,BE,31.0,Belgium
+Barbados,BB,IT,45.0,Italy
+Barbados,BB,NL,112.0,Netherlands
+Barbados,BB,OTHER,97.0,Other reporting countries
+Barbados,BB,SE,130.0,Sweden
+Belize,BZ,BE,14.0,Belgium
+Belize,BZ,IT,22.0,Italy
+Belize,BZ,NL,40.0,Netherlands
+Belize,BZ,OTHER,65.0,Other reporting countries
+Belize,BZ,SE,20.0,Sweden
+Bolivia,BO,BE,1404.0,Belgium
+Bolivia,BO,ES,189285.0,Spain
+Bolivia,BO,IT,15228.0,Italy
+Bolivia,BO,NL,1309.0,Netherlands
+Bolivia,BO,OTHER,2318.0,Other reporting countries
+Bolivia,BO,SE,4790.0,Sweden
+Brazil,BR,BE,23980.0,Belgium
+Brazil,BR,ES,179033.0,Spain
+Brazil,BR,IT,141085.0,Italy
+Brazil,BR,NL,33343.0,Netherlands
+Brazil,BR,OTHER,32766.0,Other reporting countries
+Brazil,BR,SE,13305.0,Sweden
+Chile,CL,BE,4620.0,Belgium
+Chile,CL,ES,76638.0,Spain
+Chile,CL,IT,13490.0,Italy
+Chile,CL,NL,4643.0,Netherlands
+Chile,CL,OTHER,11541.0,Other reporting countries
+Chile,CL,SE,27756.0,Sweden
+Colombia,CO,BE,9811.0,Belgium
+Colombia,CO,ES,856616.0,Spain
+Colombia,CO,IT,48352.0,Italy
+Colombia,CO,NL,19707.0,Netherlands
+Colombia,CO,OTHER,15857.0,Other reporting countries
+Colombia,CO,SE,14055.0,Sweden
+Costa Rica,CR,BE,420.0,Belgium
+Costa Rica,CR,IT,1861.0,Italy
+Costa Rica,CR,NL,1344.0,Netherlands
+Costa Rica,CR,OTHER,1408.0,Other reporting countries
+Costa Rica,CR,SE,553.0,Sweden
+Cuba,CU,BE,2379.0,Belgium
+Cuba,CU,ES,223532.0,Spain
+Cuba,CU,IT,42660.0,Italy
+Cuba,CU,NL,1921.0,Netherlands
+Cuba,CU,OTHER,6847.0,Other reporting countries
+Cuba,CU,SE,3086.0,Sweden
+Dominica,DM,BE,223.0,Belgium
+Dominica,DM,IT,134.0,Italy
+Dominica,DM,NL,89.0,Netherlands
+Dominica,DM,OTHER,130.0,Other reporting countries
+Dominica,DM,SE,48.0,Sweden
+Dominican Republic,DO,BE,3534.0,Belgium
+Dominican Republic,DO,ES,201162.0,Spain
+Dominican Republic,DO,IT,51105.0,Italy
+Dominican Republic,DO,NL,10917.0,Netherlands
+Dominican Republic,DO,OTHER,6325.0,Other reporting countries
+Dominican Republic,DO,SE,999.0,Sweden
+Ecuador,EC,BE,7479.0,Belgium
+Ecuador,EC,ES,448643.0,Spain
+Ecuador,EC,IT,80462.0,Italy
+Ecuador,EC,NL,3538.0,Netherlands
+Ecuador,EC,OTHER,3883.0,Other reporting countries
+Ecuador,EC,SE,2861.0,Sweden
+El Salvador,SV,BE,2371.0,Belgium
+El Salvador,SV,IT,24361.0,Italy
+El Salvador,SV,NL,748.0,Netherlands
+El Salvador,SV,OTHER,939.0,Other reporting countries
+El Salvador,SV,SE,3421.0,Sweden
+Grenada,GD,BE,9.0,Belgium
+Grenada,GD,IT,15.0,Italy
+Grenada,GD,NL,50.0,Netherlands
+Grenada,GD,OTHER,66.0,Other reporting countries
+Grenada,GD,SE,42.0,Sweden
+Guatemala,GT,BE,1093.0,Belgium
+Guatemala,GT,IT,2578.0,Italy
+Guatemala,GT,NL,1105.0,Netherlands
+Guatemala,GT,OTHER,1717.0,Other reporting countries
+Guatemala,GT,SE,933.0,Sweden
+Guyana,GY,BE,124.0,Belgium
+Guyana,GY,IT,73.0,Italy
+Guyana,GY,NL,2256.0,Netherlands
+Guyana,GY,OTHER,210.0,Other reporting countries
+Guyana,GY,SE,139.0,Sweden
+Haiti,HT,BE,2151.0,Belgium
+Haiti,HT,IT,1032.0,Italy
+Haiti,HT,NL,1607.0,Netherlands
+Haiti,HT,OTHER,1217.0,Other reporting countries
+Haiti,HT,SE,163.0,Sweden
+Honduras,HN,BE,473.0,Belgium
+Honduras,HN,ES,201319.0,Spain
+Honduras,HN,IT,4782.0,Italy
+Honduras,HN,NL,727.0,Netherlands
+Honduras,HN,OTHER,1111.0,Other reporting countries
+Honduras,HN,SE,493.0,Sweden
+Jamaica,JM,BE,490.0,Belgium
+Jamaica,JM,IT,381.0,Italy
+Jamaica,JM,NL,1271.0,Netherlands
+Jamaica,JM,OTHER,711.0,Other reporting countries
+Jamaica,JM,SE,434.0,Sweden
+Mexico,MX,BE,3875.0,Belgium
+Mexico,MX,ES,79581.0,Spain
+Mexico,MX,IT,11545.0,Italy
+Mexico,MX,NL,8450.0,Netherlands
+Mexico,MX,OTHER,12045.0,Other reporting countries
+Mexico,MX,SE,4155.0,Sweden
+Nicaragua,NI,BE,554.0,Belgium
+Nicaragua,NI,ES,87786.0,Spain
+Nicaragua,NI,IT,1635.0,Italy
+Nicaragua,NI,NL,831.0,Netherlands
+Nicaragua,NI,OTHER,1456.0,Other reporting countries
+Nicaragua,NI,SE,1280.0,Sweden
+Panama,PA,BE,280.0,Belgium
+Panama,PA,IT,1197.0,Italy
+Panama,PA,NL,570.0,Netherlands
+Panama,PA,OTHER,566.0,Other reporting countries
+Panama,PA,SE,335.0,Sweden
+Paraguay,PY,BE,682.0,Belgium
+Paraguay,PY,ES,146047.0,Spain
+Paraguay,PY,IT,3308.0,Italy
+Paraguay,PY,NL,357.0,Netherlands
+Paraguay,PY,OTHER,988.0,Other reporting countries
+Paraguay,PY,SE,236.0,Sweden
+Peru,PE,BE,4947.0,Belgium
+Peru,PE,ES,378924.0,Spain
+Peru,PE,IT,135830.0,Italy
+Peru,PE,NL,6336.0,Netherlands
+Peru,PE,OTHER,7203.0,Other reporting countries
+Peru,PE,SE,8598.0,Sweden
+Saint Kitts and Nevis,KN,BE,1.0,Belgium
+Saint Kitts and Nevis,KN,IT,9.0,Italy
+Saint Kitts and Nevis,KN,NL,76.0,Netherlands
+Saint Kitts and Nevis,KN,OTHER,19.0,Other reporting countries
+Saint Kitts and Nevis,KN,SE,3.0,Sweden
+Saint Lucia,LC,BE,19.0,Belgium
+Saint Lucia,LC,IT,20.0,Italy
+Saint Lucia,LC,NL,81.0,Netherlands
+Saint Lucia,LC,OTHER,62.0,Other reporting countries
+Saint Lucia,LC,SE,44.0,Sweden
+Saint Vincent and the Grenadines,VC,BE,6.0,Belgium
+Saint Vincent and the Grenadines,VC,IT,14.0,Italy
+Saint Vincent and the Grenadines,VC,NL,70.0,Netherlands
+Saint Vincent and the Grenadines,VC,OTHER,33.0,Other reporting countries
+Saint Vincent and the Grenadines,VC,SE,18.0,Sweden
+Suriname,SR,BE,6236.0,Belgium
+Suriname,SR,IT,34.0,Italy
+Suriname,SR,NL,178703.0,Netherlands
+Suriname,SR,OTHER,168.0,Other reporting countries
+Suriname,SR,SE,56.0,Sweden
+Trinidad and Tobago,TT,BE,121.0,Belgium
+Trinidad and Tobago,TT,IT,178.0,Italy
+Trinidad and Tobago,TT,NL,798.0,Netherlands
+Trinidad and Tobago,TT,OTHER,647.0,Other reporting countries
+Trinidad and Tobago,TT,SE,335.0,Sweden
+Uruguay,UY,BE,583.0,Belgium
+Uruguay,UY,ES,89595.0,Spain
+Uruguay,UY,IT,7068.0,Italy
+Uruguay,UY,NL,1040.0,Netherlands
+Uruguay,UY,OTHER,1381.0,Other reporting countries
+Uruguay,UY,SE,2175.0,Sweden
+Venezuela,VE,BE,4144.0,Belgium
+Venezuela,VE,ES,599769.0,Spain
+Venezuela,VE,IT,66190.0,Italy
+Venezuela,VE,NL,7736.0,Netherlands
+Venezuela,VE,OTHER,9980.0,Other reporting countries
+Venezuela,VE,SE,2083.0,Sweden

@@ -1,0 +1,633 @@
+row,iso3,family,year,survey
+Belize,BLZ,IDB harmonized household surveys,1993,LFS
+Belize,BLZ,IDB harmonized household surveys,1994,LFS
+Belize,BLZ,IDB harmonized household surveys,1995,LFS
+Belize,BLZ,IDB harmonized household surveys,1996,LFS
+Belize,BLZ,IDB harmonized household surveys,1997,LFS
+Belize,BLZ,IDB harmonized household surveys,1998,LFS
+Belize,BLZ,IDB harmonized household surveys,1999,LFS
+Belize,BLZ,IDB harmonized household surveys,2001,LFS
+Belize,BLZ,IDB harmonized household surveys,2002,LFS
+Belize,BLZ,IDB harmonized household surveys,2003,LFS
+Belize,BLZ,IDB harmonized household surveys,2004,LFS
+Belize,BLZ,IDB harmonized household surveys,2005,LFS
+Belize,BLZ,IDB harmonized household surveys,2007,LFS
+Costa Rica,CRI,IDB harmonized household surveys,1990,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1991,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1992,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1993,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1994,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1995,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1996,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1997,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1998,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,1999,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2000,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2001,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2002,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2003,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2004,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2005,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2006,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2007,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2008,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2009,EHPM
+Costa Rica,CRI,IDB harmonized household surveys,2010,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2011,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2012,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2013,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2014,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2015,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2016,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2017,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2018,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2019,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2020,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2021,ENAHO
+Costa Rica,CRI,IDB harmonized household surveys,2022,ENAHO
+El Salvador,SLV,IDB harmonized household surveys,1995,EHPM
+El Salvador,SLV,IDB harmonized household surveys,1996,EHPM
+El Salvador,SLV,IDB harmonized household surveys,1997,EHPM
+El Salvador,SLV,IDB harmonized household surveys,1998,EHPM
+El Salvador,SLV,IDB harmonized household surveys,1999,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2000,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2001,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2002,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2003,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2004,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2005,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2006,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2007,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2008,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2009,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2010,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2011,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2012,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2013,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2014,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2015,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2016,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2017,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2018,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2019,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2020,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2021,EHPM
+El Salvador,SLV,IDB harmonized household surveys,2022,EHPM
+Guatemala,GTM,IDB harmonized household surveys,2000,ENCOVI
+Guatemala,GTM,IDB harmonized household surveys,2002,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2003,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2004,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2006,ENCOVI
+Guatemala,GTM,IDB harmonized household surveys,2010,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2011,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2012,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2013,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2014,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2015,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2016,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2017,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2018,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2019,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2021,ENEI
+Guatemala,GTM,IDB harmonized household surveys,2022,ENEI
+Honduras,HND,IDB harmonized household surveys,1986,EPHPM
+Honduras,HND,IDB harmonized household surveys,1989,EPHPM
+Honduras,HND,IDB harmonized household surveys,1990,EPHPM
+Honduras,HND,IDB harmonized household surveys,1991,EPHPM
+Honduras,HND,IDB harmonized household surveys,1992,EPHPM
+Honduras,HND,IDB harmonized household surveys,1993,EPHPM
+Honduras,HND,IDB harmonized household surveys,1994,EPHPM
+Honduras,HND,IDB harmonized household surveys,1995,EPHPM
+Honduras,HND,IDB harmonized household surveys,1996,EPHPM
+Honduras,HND,IDB harmonized household surveys,1997,EPHPM
+Honduras,HND,IDB harmonized household surveys,1998,EPHPM
+Honduras,HND,IDB harmonized household surveys,1999,EPHPM
+Honduras,HND,IDB harmonized household surveys,2001,EPHPM
+Honduras,HND,IDB harmonized household surveys,2002,EPHPM
+Honduras,HND,IDB harmonized household surveys,2003,EPHPM
+Honduras,HND,IDB harmonized household surveys,2004,EPHPM
+Honduras,HND,IDB harmonized household surveys,2005,EPHPM
+Honduras,HND,IDB harmonized household surveys,2006,EPHPM
+Honduras,HND,IDB harmonized household surveys,2007,EPHPM
+Honduras,HND,IDB harmonized household surveys,2008,EPHPM
+Honduras,HND,IDB harmonized household surveys,2009,EPHPM
+Honduras,HND,IDB harmonized household surveys,2010,EPHPM
+Honduras,HND,IDB harmonized household surveys,2011,EPHPM
+Honduras,HND,IDB harmonized household surveys,2012,EPHPM
+Honduras,HND,IDB harmonized household surveys,2013,EPHPM
+Honduras,HND,IDB harmonized household surveys,2014,EPHPM
+Honduras,HND,IDB harmonized household surveys,2015,EPHPM
+Honduras,HND,IDB harmonized household surveys,2016,EPHPM
+Honduras,HND,IDB harmonized household surveys,2017,EPHPM
+Honduras,HND,IDB harmonized household surveys,2018,EPHPM
+Honduras,HND,IDB harmonized household surveys,2019,EPHPM
+Mexico,MEX,IDB harmonized household surveys,1992,ENIGH
+Mexico,MEX,IDB harmonized household surveys,1994,ENIGH
+Mexico,MEX,IDB harmonized household surveys,1996,ENIGH
+Mexico,MEX,IDB harmonized household surveys,1998,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2000,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2002,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2004,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2005,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2006,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2008,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2010,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2012,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2014,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2016,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2018,ENIGH
+Mexico,MEX,IDB harmonized household surveys,2020,ENIGH
+Nicaragua,NIC,IDB harmonized household surveys,1993,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,1998,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,1999,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,2001,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,2005,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,2009,EMNV
+Nicaragua,NIC,IDB harmonized household surveys,2010,ECH
+Nicaragua,NIC,IDB harmonized household surveys,2011,ECH
+Nicaragua,NIC,IDB harmonized household surveys,2012,ECH
+Nicaragua,NIC,IDB harmonized household surveys,2014,EMNV
+Panama,PAN,IDB harmonized household surveys,1991,EH
+Panama,PAN,IDB harmonized household surveys,1995,EH
+Panama,PAN,IDB harmonized household surveys,1996,EH
+Panama,PAN,IDB harmonized household surveys,1997,EH
+Panama,PAN,IDB harmonized household surveys,1998,EH
+Panama,PAN,IDB harmonized household surveys,1999,EH
+Panama,PAN,IDB harmonized household surveys,2000,EH
+Panama,PAN,IDB harmonized household surveys,2001,EH
+Panama,PAN,IDB harmonized household surveys,2002,EH
+Panama,PAN,IDB harmonized household surveys,2003,EH
+Panama,PAN,IDB harmonized household surveys,2004,EH
+Panama,PAN,IDB harmonized household surveys,2005,EH
+Panama,PAN,IDB harmonized household surveys,2006,EH
+Panama,PAN,IDB harmonized household surveys,2007,EH
+Panama,PAN,IDB harmonized household surveys,2008,EH
+Panama,PAN,IDB harmonized household surveys,2009,EH
+Panama,PAN,IDB harmonized household surveys,2010,EH
+Panama,PAN,IDB harmonized household surveys,2011,EHPM
+Panama,PAN,IDB harmonized household surveys,2012,EHPM
+Panama,PAN,IDB harmonized household surveys,2013,EHPM
+Panama,PAN,IDB harmonized household surveys,2014,EHPM
+Panama,PAN,IDB harmonized household surveys,2015,EHPM
+Panama,PAN,IDB harmonized household surveys,2016,EHPM
+Panama,PAN,IDB harmonized household surveys,2017,EHPM
+Panama,PAN,IDB harmonized household surveys,2018,EHPM
+Panama,PAN,IDB harmonized household surveys,2019,EHPM
+Panama,PAN,IDB harmonized household surveys,2022,EHPM
+Bahamas,BHS,IDB harmonized household surveys,2001,LFS
+Bahamas,BHS,IDB harmonized household surveys,2002,LFS
+Bahamas,BHS,IDB harmonized household surveys,2003,LFS
+Bahamas,BHS,IDB harmonized household surveys,2004,LFS
+Bahamas,BHS,IDB harmonized household surveys,2005,LFS
+Bahamas,BHS,IDB harmonized household surveys,2006,LFS
+Bahamas,BHS,IDB harmonized household surveys,2007,LFS
+Bahamas,BHS,IDB harmonized household surveys,2008,LFS
+Bahamas,BHS,IDB harmonized household surveys,2009,LFS
+Bahamas,BHS,IDB harmonized household surveys,2011,LFS
+Bahamas,BHS,IDB harmonized household surveys,2012,LFS
+Bahamas,BHS,IDB harmonized household surveys,2013,LFS
+Bahamas,BHS,IDB harmonized household surveys,2014,LFS
+Barbados,BRB,IDB harmonized household surveys,2000,CLFS
+Barbados,BRB,IDB harmonized household surveys,2004,CLFS
+Barbados,BRB,IDB harmonized household surveys,2005,CLFS
+Barbados,BRB,IDB harmonized household surveys,2006,CLFS
+Barbados,BRB,IDB harmonized household surveys,2007,CLFS
+Barbados,BRB,IDB harmonized household surveys,2008,CLFS
+Barbados,BRB,IDB harmonized household surveys,2009,CLFS
+Barbados,BRB,IDB harmonized household surveys,2010,CLFS
+Barbados,BRB,IDB harmonized household surveys,2011,CLFS
+Barbados,BRB,IDB harmonized household surveys,2012,CLFS
+Barbados,BRB,IDB harmonized household surveys,2013,CLFS
+Barbados,BRB,IDB harmonized household surveys,2014,CLFS
+Barbados,BRB,IDB harmonized household surveys,2015,CLFS
+Barbados,BRB,IDB harmonized household surveys,2016,CLFS
+Dominican Republic,DOM,IDB harmonized household surveys,1995,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,1996,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,1997,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2000,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2001,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2002,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2003,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2004,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2005,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2006,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2007,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2008,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2009,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2010,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2011,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2012,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2013,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2014,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2015,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2016,ENFT
+Dominican Republic,DOM,IDB harmonized household surveys,2017,ENCFT
+Dominican Republic,DOM,IDB harmonized household surveys,2018,ENCFT
+Dominican Republic,DOM,IDB harmonized household surveys,2019,ENCFT
+Dominican Republic,DOM,IDB harmonized household surveys,2020,ENCFT
+Dominican Republic,DOM,IDB harmonized household surveys,2021,ENCFT
+Haiti,HTI,IDB harmonized household surveys,2012,ECVMAS
+Jamaica,JAM,IDB harmonized household surveys,1990,LFS
+Jamaica,JAM,IDB harmonized household surveys,1991,LFS
+Jamaica,JAM,IDB harmonized household surveys,1992,LFS
+Jamaica,JAM,IDB harmonized household surveys,1993,LFS
+Jamaica,JAM,IDB harmonized household surveys,1994,LFS
+Jamaica,JAM,IDB harmonized household surveys,1995,LFS
+Jamaica,JAM,IDB harmonized household surveys,1996,LFS
+Jamaica,JAM,IDB harmonized household surveys,1997,LFS
+Jamaica,JAM,IDB harmonized household surveys,1998,LFS
+Jamaica,JAM,IDB harmonized household surveys,1999,LFS
+Jamaica,JAM,IDB harmonized household surveys,2000,LFS
+Jamaica,JAM,IDB harmonized household surveys,2001,LFS
+Jamaica,JAM,IDB harmonized household surveys,2002,LFS
+Jamaica,JAM,IDB harmonized household surveys,2003,LFS
+Jamaica,JAM,IDB harmonized household surveys,2004,LFS
+Jamaica,JAM,IDB harmonized household surveys,2005,LFS
+Jamaica,JAM,IDB harmonized household surveys,2006,LFS
+Jamaica,JAM,IDB harmonized household surveys,2007,LFS
+Jamaica,JAM,IDB harmonized household surveys,2008,LFS
+Jamaica,JAM,IDB harmonized household surveys,2009,LFS
+Jamaica,JAM,IDB harmonized household surveys,2010,LFS
+Jamaica,JAM,IDB harmonized household surveys,2012,LFS
+Jamaica,JAM,IDB harmonized household surveys,2013,LFS
+Jamaica,JAM,IDB harmonized household surveys,2014,LFS
+Jamaica,JAM,IDB harmonized household surveys,2016,LFS
+Jamaica,JAM,IDB harmonized household surveys,2019,LFS
+Jamaica,JAM,IDB harmonized household surveys,2020,LFS
+Trinidad and Tobago,TTO,IDB harmonized household surveys,1999,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2000,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2001,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2002,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2003,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2004,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2005,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2006,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2007,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2008,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2009,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2010,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2011,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2012,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2013,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2014,CSSP
+Trinidad and Tobago,TTO,IDB harmonized household surveys,2015,CSSP
+Argentina,ARG,IDB harmonized household surveys,1992,EPHP
+Argentina,ARG,IDB harmonized household surveys,1993,EPHP
+Argentina,ARG,IDB harmonized household surveys,1994,EPHP
+Argentina,ARG,IDB harmonized household surveys,1995,EPHP
+Argentina,ARG,IDB harmonized household surveys,1996,EPHP
+Argentina,ARG,IDB harmonized household surveys,1997,EPHP
+Argentina,ARG,IDB harmonized household surveys,1998,EPHP
+Argentina,ARG,IDB harmonized household surveys,1999,EPHP
+Argentina,ARG,IDB harmonized household surveys,2000,EPHP
+Argentina,ARG,IDB harmonized household surveys,2001,EPHP
+Argentina,ARG,IDB harmonized household surveys,2002,EPHP
+Argentina,ARG,IDB harmonized household surveys,2003,EPHC
+Argentina,ARG,IDB harmonized household surveys,2004,EPHC
+Argentina,ARG,IDB harmonized household surveys,2005,EPHC
+Argentina,ARG,IDB harmonized household surveys,2006,EPHC
+Argentina,ARG,IDB harmonized household surveys,2007,EPHC
+Argentina,ARG,IDB harmonized household surveys,2008,EPHC
+Argentina,ARG,IDB harmonized household surveys,2009,EPHC
+Argentina,ARG,IDB harmonized household surveys,2010,EPHC
+Argentina,ARG,IDB harmonized household surveys,2011,EPHC
+Argentina,ARG,IDB harmonized household surveys,2012,EPHC
+Argentina,ARG,IDB harmonized household surveys,2013,EPHC
+Argentina,ARG,IDB harmonized household surveys,2014,EPHC
+Argentina,ARG,IDB harmonized household surveys,2015,EPHC
+Argentina,ARG,IDB harmonized household surveys,2016,EPHC
+Argentina,ARG,IDB harmonized household surveys,2017,EPHC
+Argentina,ARG,IDB harmonized household surveys,2018,EPHC
+Argentina,ARG,IDB harmonized household surveys,2019,EPHC
+Argentina,ARG,IDB harmonized household surveys,2020,EPHC
+Argentina,ARG,IDB harmonized household surveys,2021,EPHC
+Argentina,ARG,IDB harmonized household surveys,2022,EPHC
+Bolivia,BOL,IDB harmonized household surveys,1990,EIH
+Bolivia,BOL,IDB harmonized household surveys,1991,EIH
+Bolivia,BOL,IDB harmonized household surveys,1992,EIH
+Bolivia,BOL,IDB harmonized household surveys,1993,EIH
+Bolivia,BOL,IDB harmonized household surveys,1994,EIH
+Bolivia,BOL,IDB harmonized household surveys,1995,EIH
+Bolivia,BOL,IDB harmonized household surveys,1996,ENE
+Bolivia,BOL,IDB harmonized household surveys,1997,ENE
+Bolivia,BOL,IDB harmonized household surveys,1999,ECH
+Bolivia,BOL,IDB harmonized household surveys,2000,ECH
+Bolivia,BOL,IDB harmonized household surveys,2001,ECH
+Bolivia,BOL,IDB harmonized household surveys,2002,ECH
+Bolivia,BOL,IDB harmonized household surveys,2003,ECH
+Bolivia,BOL,IDB harmonized household surveys,2005,ECH
+Bolivia,BOL,IDB harmonized household surveys,2006,ECH
+Bolivia,BOL,IDB harmonized household surveys,2007,ECH
+Bolivia,BOL,IDB harmonized household surveys,2008,ECH
+Bolivia,BOL,IDB harmonized household surveys,2009,ECH
+Bolivia,BOL,IDB harmonized household surveys,2011,ECH
+Bolivia,BOL,IDB harmonized household surveys,2012,ECH
+Bolivia,BOL,IDB harmonized household surveys,2013,ECH
+Bolivia,BOL,IDB harmonized household surveys,2014,ECH
+Bolivia,BOL,IDB harmonized household surveys,2015,ECH
+Bolivia,BOL,IDB harmonized household surveys,2016,ECH
+Bolivia,BOL,IDB harmonized household surveys,2017,ECH
+Bolivia,BOL,IDB harmonized household surveys,2018,ECH
+Bolivia,BOL,IDB harmonized household surveys,2019,ECH
+Bolivia,BOL,IDB harmonized household surveys,2020,ECH
+Bolivia,BOL,IDB harmonized household surveys,2021,ECH
+Brazil,BRA,IDB harmonized household surveys,1990,PNAD
+Brazil,BRA,IDB harmonized household surveys,1992,PNAD
+Brazil,BRA,IDB harmonized household surveys,1993,PNAD
+Brazil,BRA,IDB harmonized household surveys,1995,PNAD
+Brazil,BRA,IDB harmonized household surveys,1996,PNAD
+Brazil,BRA,IDB harmonized household surveys,1997,PNAD
+Brazil,BRA,IDB harmonized household surveys,1998,PNAD
+Brazil,BRA,IDB harmonized household surveys,1999,PNAD
+Brazil,BRA,IDB harmonized household surveys,2001,PNAD
+Brazil,BRA,IDB harmonized household surveys,2002,PNAD
+Brazil,BRA,IDB harmonized household surveys,2003,PNAD
+Brazil,BRA,IDB harmonized household surveys,2004,PNAD
+Brazil,BRA,IDB harmonized household surveys,2005,PNAD
+Brazil,BRA,IDB harmonized household surveys,2006,PNAD
+Brazil,BRA,IDB harmonized household surveys,2007,PNAD
+Brazil,BRA,IDB harmonized household surveys,2008,PNAD
+Brazil,BRA,IDB harmonized household surveys,2009,PNAD
+Brazil,BRA,IDB harmonized household surveys,2011,PNAD
+Brazil,BRA,IDB harmonized household surveys,2012,PNAD
+Brazil,BRA,IDB harmonized household surveys,2013,PNAD
+Brazil,BRA,IDB harmonized household surveys,2014,PNAD
+Brazil,BRA,IDB harmonized household surveys,2015,PNAD
+Brazil,BRA,IDB harmonized household surveys,2016,PNADC
+Brazil,BRA,IDB harmonized household surveys,2017,PNADC
+Brazil,BRA,IDB harmonized household surveys,2018,PNADC
+Brazil,BRA,IDB harmonized household surveys,2019,PNADC
+Brazil,BRA,IDB harmonized household surveys,2020,PNADC
+Brazil,BRA,IDB harmonized household surveys,2021,PNADC
+Brazil,BRA,IDB harmonized household surveys,2022,PNADC
+Chile,CHL,IDB harmonized household surveys,1990,CASEN
+Chile,CHL,IDB harmonized household surveys,1992,CASEN
+Chile,CHL,IDB harmonized household surveys,1994,CASEN
+Chile,CHL,IDB harmonized household surveys,1996,CASEN
+Chile,CHL,IDB harmonized household surveys,1998,CASEN
+Chile,CHL,IDB harmonized household surveys,2000,CASEN
+Chile,CHL,IDB harmonized household surveys,2003,CASEN
+Chile,CHL,IDB harmonized household surveys,2006,CASEN
+Chile,CHL,IDB harmonized household surveys,2009,CASEN
+Chile,CHL,IDB harmonized household surveys,2011,CASEN
+Chile,CHL,IDB harmonized household surveys,2013,CASEN
+Chile,CHL,IDB harmonized household surveys,2015,CASEN
+Chile,CHL,IDB harmonized household surveys,2017,CASEN
+Chile,CHL,IDB harmonized household surveys,2020,CASEN
+Colombia,COL,IDB harmonized household surveys,1989,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1990,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1991,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1992,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1993,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1994,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1995,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1996,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1997,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1998,ENH-FT
+Colombia,COL,IDB harmonized household surveys,1999,ENH-FT
+Colombia,COL,IDB harmonized household surveys,2000,ENH-FT
+Colombia,COL,IDB harmonized household surveys,2001,ECH
+Colombia,COL,IDB harmonized household surveys,2002,ECH
+Colombia,COL,IDB harmonized household surveys,2003,ECH
+Colombia,COL,IDB harmonized household surveys,2004,ECH
+Colombia,COL,IDB harmonized household surveys,2005,ECH
+Colombia,COL,IDB harmonized household surveys,2006,GEIH
+Colombia,COL,IDB harmonized household surveys,2007,GEIH
+Colombia,COL,IDB harmonized household surveys,2008,GEIH
+Colombia,COL,IDB harmonized household surveys,2009,GEIH
+Colombia,COL,IDB harmonized household surveys,2010,GEIH
+Colombia,COL,IDB harmonized household surveys,2011,GEIH
+Colombia,COL,IDB harmonized household surveys,2012,GEIH
+Colombia,COL,IDB harmonized household surveys,2013,GEIH
+Colombia,COL,IDB harmonized household surveys,2014,GEIH
+Colombia,COL,IDB harmonized household surveys,2015,GEIH
+Colombia,COL,IDB harmonized household surveys,2016,GEIH
+Colombia,COL,IDB harmonized household surveys,2017,GEIH
+Colombia,COL,IDB harmonized household surveys,2018,GEIH
+Colombia,COL,IDB harmonized household surveys,2019,GEIH
+Colombia,COL,IDB harmonized household surveys,2020,GEIH
+Colombia,COL,IDB harmonized household surveys,2021,GEIH
+Ecuador,ECU,IDB harmonized household surveys,1990,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1991,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1992,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1993,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1994,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1995,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1996,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1997,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1998,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,1999,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2000,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2001,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2002,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2003,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2004,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2005,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2006,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2007,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2008,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2009,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2010,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2011,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2012,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2013,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2014,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2015,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2016,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2017,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2018,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2019,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2020,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2021,ENEMDU
+Ecuador,ECU,IDB harmonized household surveys,2022,ENEMDU
+Guyana,GUY,IDB harmonized household surveys,2017,LFS
+Guyana,GUY,IDB harmonized household surveys,2018,LFS
+Guyana,GUY,IDB harmonized household surveys,2019,LFS
+Guyana,GUY,IDB harmonized household surveys,2021,LFS
+Paraguay,PRY,IDB harmonized household surveys,1990,EHM
+Paraguay,PRY,IDB harmonized household surveys,1991,EHM
+Paraguay,PRY,IDB harmonized household surveys,1992,EHM
+Paraguay,PRY,IDB harmonized household surveys,1993,EHM
+Paraguay,PRY,IDB harmonized household surveys,1994,EHM
+Paraguay,PRY,IDB harmonized household surveys,1995,EHM
+Paraguay,PRY,IDB harmonized household surveys,1996,EHM
+Paraguay,PRY,IDB harmonized household surveys,1997,EIH
+Paraguay,PRY,IDB harmonized household surveys,1999,EPH
+Paraguay,PRY,IDB harmonized household surveys,2000,EPH
+Paraguay,PRY,IDB harmonized household surveys,2002,EPH
+Paraguay,PRY,IDB harmonized household surveys,2003,EPH
+Paraguay,PRY,IDB harmonized household surveys,2004,EPH
+Paraguay,PRY,IDB harmonized household surveys,2005,EPH
+Paraguay,PRY,IDB harmonized household surveys,2006,EPH
+Paraguay,PRY,IDB harmonized household surveys,2007,EPH
+Paraguay,PRY,IDB harmonized household surveys,2008,EPH
+Paraguay,PRY,IDB harmonized household surveys,2009,EPH
+Paraguay,PRY,IDB harmonized household surveys,2010,EPH
+Paraguay,PRY,IDB harmonized household surveys,2011,EPH
+Paraguay,PRY,IDB harmonized household surveys,2012,EPH
+Paraguay,PRY,IDB harmonized household surveys,2013,EPH
+Paraguay,PRY,IDB harmonized household surveys,2014,EPH
+Paraguay,PRY,IDB harmonized household surveys,2015,EPH
+Paraguay,PRY,IDB harmonized household surveys,2016,EPH
+Paraguay,PRY,IDB harmonized household surveys,2017,EPH
+Paraguay,PRY,IDB harmonized household surveys,2018,EPHC
+Paraguay,PRY,IDB harmonized household surveys,2020,EPHC
+Paraguay,PRY,IDB harmonized household surveys,2021,EPHC
+Paraguay,PRY,IDB harmonized household surveys,2022,EPHC
+Peru,PER,IDB harmonized household surveys,1991,ENNIV
+Peru,PER,IDB harmonized household surveys,1994,ENNIV
+Peru,PER,IDB harmonized household surveys,1997,ENAHO
+Peru,PER,IDB harmonized household surveys,1998,ENAHO
+Peru,PER,IDB harmonized household surveys,1999,ENAHO
+Peru,PER,IDB harmonized household surveys,2000,ENAHO
+Peru,PER,IDB harmonized household surveys,2001,ENAHO
+Peru,PER,IDB harmonized household surveys,2002,ENAHO
+Peru,PER,IDB harmonized household surveys,2003,ENAHO
+Peru,PER,IDB harmonized household surveys,2004,ENAHO
+Peru,PER,IDB harmonized household surveys,2005,ENAHO
+Peru,PER,IDB harmonized household surveys,2006,ENAHO
+Peru,PER,IDB harmonized household surveys,2007,ENAHO
+Peru,PER,IDB harmonized household surveys,2008,ENAHO
+Peru,PER,IDB harmonized household surveys,2009,ENAHO
+Peru,PER,IDB harmonized household surveys,2010,ENAHO
+Peru,PER,IDB harmonized household surveys,2011,ENAHO
+Peru,PER,IDB harmonized household surveys,2012,ENAHO
+Peru,PER,IDB harmonized household surveys,2013,ENAHO
+Peru,PER,IDB harmonized household surveys,2014,ENAHO
+Peru,PER,IDB harmonized household surveys,2015,ENAHO
+Peru,PER,IDB harmonized household surveys,2016,ENAHO
+Peru,PER,IDB harmonized household surveys,2017,ENAHO
+Peru,PER,IDB harmonized household surveys,2018,ENAHO
+Peru,PER,IDB harmonized household surveys,2019,ENAHO
+Peru,PER,IDB harmonized household surveys,2020,ENAHO
+Peru,PER,IDB harmonized household surveys,2021,ENAHO
+Suriname,SUR,IDB harmonized household surveys,2017,SLC
+Uruguay,URY,IDB harmonized household surveys,1990,ECH
+Uruguay,URY,IDB harmonized household surveys,1991,ECH
+Uruguay,URY,IDB harmonized household surveys,1992,ECH
+Uruguay,URY,IDB harmonized household surveys,1993,ECH
+Uruguay,URY,IDB harmonized household surveys,1994,ECH
+Uruguay,URY,IDB harmonized household surveys,1995,ECH
+Uruguay,URY,IDB harmonized household surveys,1996,ECH
+Uruguay,URY,IDB harmonized household surveys,1997,ECH
+Uruguay,URY,IDB harmonized household surveys,1998,ECH
+Uruguay,URY,IDB harmonized household surveys,1999,ECH
+Uruguay,URY,IDB harmonized household surveys,2000,ECH
+Uruguay,URY,IDB harmonized household surveys,2001,ECH
+Uruguay,URY,IDB harmonized household surveys,2002,ECH
+Uruguay,URY,IDB harmonized household surveys,2003,ECH
+Uruguay,URY,IDB harmonized household surveys,2004,ECH
+Uruguay,URY,IDB harmonized household surveys,2005,ECH
+Uruguay,URY,IDB harmonized household surveys,2006,ECH
+Uruguay,URY,IDB harmonized household surveys,2007,ECH
+Uruguay,URY,IDB harmonized household surveys,2008,ECH
+Uruguay,URY,IDB harmonized household surveys,2009,ECH
+Uruguay,URY,IDB harmonized household surveys,2010,ECH
+Uruguay,URY,IDB harmonized household surveys,2011,ECH
+Uruguay,URY,IDB harmonized household surveys,2012,ECH
+Uruguay,URY,IDB harmonized household surveys,2013,ECH
+Uruguay,URY,IDB harmonized household surveys,2014,ECH
+Uruguay,URY,IDB harmonized household surveys,2015,ECH
+Uruguay,URY,IDB harmonized household surveys,2016,ECH
+Uruguay,URY,IDB harmonized household surveys,2017,ECH
+Uruguay,URY,IDB harmonized household surveys,2018,ECH
+Uruguay,URY,IDB harmonized household surveys,2019,ECH
+Uruguay,URY,IDB harmonized household surveys,2020,ECH
+Uruguay,URY,IDB harmonized household surveys,2021,ECH
+Uruguay,URY,IDB harmonized household surveys,2022,ECH
+Venezuela,VEN,IDB harmonized household surveys,1989,EHM
+Venezuela,VEN,IDB harmonized household surveys,1991,EHM
+Venezuela,VEN,IDB harmonized household surveys,1992,EHM
+Venezuela,VEN,IDB harmonized household surveys,1993,EHM
+Venezuela,VEN,IDB harmonized household surveys,1994,EHM
+Venezuela,VEN,IDB harmonized household surveys,1995,EHM
+Venezuela,VEN,IDB harmonized household surveys,1996,EHM
+Venezuela,VEN,IDB harmonized household surveys,1997,EHM
+Venezuela,VEN,IDB harmonized household surveys,1998,EHM
+Venezuela,VEN,IDB harmonized household surveys,1999,EHM
+Venezuela,VEN,IDB harmonized household surveys,2000,EHM
+Venezuela,VEN,IDB harmonized household surveys,2001,EHM
+Venezuela,VEN,IDB harmonized household surveys,2002,EHM
+Venezuela,VEN,IDB harmonized household surveys,2003,EHM
+Venezuela,VEN,IDB harmonized household surveys,2004,EHM
+Venezuela,VEN,IDB harmonized household surveys,2005,EHM
+Venezuela,VEN,IDB harmonized household surveys,2006,EHM
+Venezuela,VEN,IDB harmonized household surveys,2007,EHM
+Venezuela,VEN,IDB harmonized household surveys,2008,EHM
+Venezuela,VEN,IDB harmonized household surveys,2009,EHM
+Venezuela,VEN,IDB harmonized household surveys,2010,EHM
+Venezuela,VEN,IDB harmonized household surveys,2011,EHM
+Venezuela,VEN,IDB harmonized household surveys,2012,EHM
+Venezuela,VEN,IDB harmonized household surveys,2013,EHM
+Venezuela,VEN,IDB harmonized household surveys,2014,EHM
+Venezuela,VEN,IDB harmonized household surveys,2015,EHM
+Venezuela,VEN,IDB harmonized household surveys,2016,ENCOVI
+Venezuela,VEN,IDB harmonized household surveys,2017,ENCOVI
+Venezuela,VEN,IDB harmonized household surveys,2018,ENCOVI
+Venezuela,VEN,IDB harmonized household surveys,2020,ENCOVI
+Venezuela,VEN,IDB harmonized household surveys,2021,ENCOVI
+Spain: EPA,ESP,Spain EPA (HDMF),2014,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2018,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2019,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2020,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2021,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2022,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2023,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2024,"EPA (INE), HDMF harmonization"
+Spain: EPA,ESP,Spain EPA (HDMF),2025,"EPA (INE), HDMF harmonization"
+United States: CPS ASEC,USA,US surveys (IPUMS),1994,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),1995,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),1996,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),1997,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),1998,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),1999,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2000,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2001,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2002,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2003,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2004,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2005,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2006,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2007,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2008,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2009,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2010,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2011,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2012,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2013,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2014,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2015,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2016,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2017,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2018,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2019,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2020,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2021,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2022,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2023,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2024,CPS ASEC (IPUMS CPS)
+United States: CPS ASEC,USA,US surveys (IPUMS),2025,CPS ASEC (IPUMS CPS)
+United States: ACS,USA,US surveys (IPUMS),2001,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2002,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2003,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2004,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2005,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2006,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2007,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2008,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2009,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2010,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2011,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2012,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2013,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2014,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2015,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2016,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2017,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2018,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2019,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2020,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2021,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2022,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2023,ACS 1-year (IPUMS USA / PUMS)
+United States: ACS,USA,US surveys (IPUMS),2024,ACS 1-year (IPUMS USA / PUMS)

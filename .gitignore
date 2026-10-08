@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# generated PNGs live in docs/figures (published copy); the top-level folder is regenerable
+figures/
+
+# local scratch (never commit source data)
+_scratch/
+*.dta
+*.parquet
+*.csv.gz

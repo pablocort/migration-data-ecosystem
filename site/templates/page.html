@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="container">
+    {% if page.number %}<p class="eyebrow"><span class="page-num">{{ page.number }}</span> {{ page.eyebrow }}</p>{% else %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="page-lead">{{ page.lead }}</p>
+    {% if page.tags %}<p class="tags">{% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>{% endif %}
+    {% if page.jump %}
+    <nav class="jump" aria-label="On this page">
+      {% for j in page.jump %}<a href="#{{ j.id }}">{{ j.text }}</a>{% endfor %}
+    </nav>
+    {% endif %}
+  </div>
+</section>
+
+<div class="container page-body">
+{% for b in page.blocks %}
+  {% if b.type == 'heading' %}
+  <div class="section-head section-head--inline" id="{{ b.id }}">
+    {% if b.label %}<p class="mono-label">{{ b.label }}</p>{% endif %}
+    <h2>{{ b.text }}</h2>
+    {% if b.lead %}<p class="section-lead">{{ b.lead }}</p>{% endif %}
+  </div>
+  {% elif b.type == 'profile' %}
+  <section class="profile" {% if b.id %}id="{{ b.id }}"{% endif %}>
+    <div class="profile__head">
+      <p class="mono-label">Profile</p>
+      <h3>{{ b.name }}</h3>
+      {% if b.summary %}<p class="profile__summary">{{ b.summary }}</p>{% endif %}
+    </div>
+    <dl class="profile__grid">
+      {% for k, v in b.rows %}<div class="profile__item"><dt>{{ k }}</dt><dd>{{ v }}</dd></div>{% endfor %}
+    </dl>
+  </section>
+  {% elif b.type == 'chart' %}
+  {{ charts[b.id] }}
+  {% elif b.type == 'text' %}
+  <section class="prose" {% if b.id %}id="{{ b.id }}"{% endif %}>
+    {% if b.heading %}<h2>{{ b.heading }}</h2>{% endif %}
+    {% if b.html %}{{ b.html }}{% endif %}
+    {% if b.bullets %}<ul>{% for item in b.bullets %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+  </section>
+  {% elif b.type == 'callouts' %}
+  <section class="callouts" {% if b.id %}id="{{ b.id }}"{% endif %}>
+    {% if b.heading %}<h2>{{ b.heading }}</h2>{% endif %}
+    <div class="callout-grid">
+      {% for c in b['items'] %}
+      <div class="callout"><p class="callout__title">{{ c.title }}</p><p>{{ c.text }}</p></div>
+      {% endfor %}
+    </div>
+  </section>
+  {% elif b.type == 'table' %}
+  <section class="prose prose--wide" {% if b.id %}id="{{ b.id }}"{% endif %}>
+    {% if b.heading %}<h2>{{ b.heading }}</h2>{% endif %}
+    {% if b.lead %}<p>{{ b.lead }}</p>{% endif %}
+    <div class="tablewrap"><table class="data-table data-table--text">
+      <thead><tr>{% for c in b.columns %}<th>{{ c }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for r in b.rows %}<tr>{% for c in r %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+  {% elif b.type == 'links' %}
+  <section class="links" {% if b.id %}id="{{ b.id }}"{% endif %}>
+    {% if b.heading %}<h2>{{ b.heading }}</h2>{% endif %}
+    <ul class="link-list">
+      {% for l in b['items'] %}<li><a href="{{ l.href }}">{{ l.text }}</a>{% if l.note %} <span class="link-note">{{ l.note }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+{% endfor %}
+
+{% if page.citation %}
+<section class="cite">
+  <p class="mono-label">How to cite the data</p>
+  <p>{{ page.citation }}</p>
+</section>
+{% endif %}
+
+<nav class="pager" aria-label="Previous and next">
+  {% if page.prev %}<a class="pager__link" href="{{ page.prev.href }}"><span class="mono-label">Previous</span>{{ page.prev.text }}</a>{% else %}<span></span>{% endif %}
+  {% if page.next %}<a class="pager__link pager__link--next" href="{{ page.next.href }}"><span class="mono-label">Next</span>{{ page.next.text }}</a>{% endif %}
+</nav>
+</div>
+{% endblock %}

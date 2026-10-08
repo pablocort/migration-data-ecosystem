@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concepts and comparability · Migration Data Ecosystem</title>
+<meta name="description" content="Why the same migration question returns different numbers from different sources, and how the five source families line up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script src="https://cdn.plot.ly/plotly-3.5.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Migration Data Ecosystem, home">
+      <span class="brand__mark" aria-hidden="true">MDE</span>
+      <span class="brand__text">Migration Data Ecosystem</span>
+    </a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav id="nav-links" class="nav__links" aria-label="Site">
+      <a href="index.html">Overview</a>
+      <a href="us-acs.html">01 United States</a>
+      <a href="europe-eurostat.html">02 Europe</a>
+      <a href="household-surveys.html">03 Surveys</a>
+      <a href="global-estimates.html">04 Global estimates</a>
+      <a href="deportation-data.html">05 Deportation data</a>
+      <a href="concepts.html" class="is-active" aria-current="page">Concepts</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+<p class="eyebrow">Reading across sources</p>    <h1>Concepts and comparability</h1>
+    <p class="page-lead">Every source on this site counts something slightly different: a person born abroad, a passport, a permit, an application, an event. Most disagreements between numbers are definitions, dates or universes rather than errors. This page lists the ones we meet most often and puts the five families side by side.</p>
+  </div>
+</section>
+
+<div class="container page-body">
+  <section class="prose prose--wide" >
+<h2>Four ways to count a migrant</h2><p>The unit behind each source, and what it misses.</p>    <div class="tablewrap"><table class="data-table data-table--text">
+      <thead><tr><th>Concept</th><th>What is counted</th><th>Where it is used</th><th>Who it leaves out</th></tr></thead>
+      <tbody><tr><td>Born abroad (foreign-born)</td><td>People whose place of birth is another country, whatever their passport</td><td>ACS and CPS (IPUMS), IDB harmonized surveys (migrante_ci), Spain EPA, UN DESA for most countries, Eurostat born-in series</td><td>Children of migrants born in the destination; in the Census definition, also people born abroad to citizen parents</td></tr><tr><td>Foreign citizen</td><td>People holding the citizenship of another country</td><td>Eurostat citizenship series, residence permits and asylum; ICE removals (citizenship country)</td><td>Migrants who naturalized (5,700 Mexicans a year in Europe); dual nationals by the passport used</td></tr><tr><td>Permit or application</td><td>Documents: valid permits, first permits, applications filed</td><td>Eurostat permits; USCIS TPS and DACA</td><td>People without a permit, EU-citizen family members; one person can hold several documents over time</td></tr><tr><td>Event</td><td>Something that happened to a person: a removal, an arrest, a detention stay, an encounter</td><td>Deportation Data Project; Eurostat enforcement</td><td>The same person can appear several times; events are not people and not stocks</td></tr></tbody>
+    </table></div>
+  </section>
+  <section class="prose prose--wide" >
+<h2>Dates, universes and years</h2>    <div class="tablewrap"><table class="data-table data-table--text">
+      <thead><tr><th>Convention</th><th>Sources</th><th>What to watch</th></tr></thead>
+      <tbody><tr><td>Mid-year stock</td><td>UN DESA International Migrant Stock</td><td>Dated 1 July; 2024 is a new vintage rather than an extension of the 2020 series</td></tr><tr><td>1 January stock</td><td>FLown and Gaskin and Abel; Eurostat population series</td><td>Fast-growing corridors sit below mid-year figures of the same year</td></tr><tr><td>Survey reference period</td><td>ACS (continuous through the year), CPS (March), EPA (quarters), LAC surveys (varies)</td><td>Annual stacks of quarterly surveys need weights divided by the number of quarters</td></tr><tr><td>US fiscal year</td><td>ICE, USCIS and CBP</td><td>October to September; FY2026 ends on the data cut of 11 March 2026</td></tr><tr><td>Reporting-country panels</td><td>Eurostat</td><td>A series summed over reporting countries grows with reporting; compare fixed panels</td></tr><tr><td>First-time vs subsequent</td><td>Eurostat asylum</td><td>Subsequent applications repeat people; use first-time applicants for arrivals</td></tr></tbody>
+    </table></div>
+  </section>
+  <section class="prose" >
+<h2>The same number from different sources</h2><p>Three examples from our own work, each with the two or three figures that circulate.</p><ul><li>People born in Mexico living in the United States, 2024: 11.59 million by IPUMS birthplace (any citizenship) and 11.15 million as Census foreign-born (naturalized or non-citizen); the gap is people born abroad to US-citizen parents.</li><li>People born in Mexico living in Spain, 2024: Eurostat 79,581; Gaskin and Abel 77,984; UN DESA 77,724; Mexican citizens with a valid permit 33,849. The first three agree within 3%; the permit count answers a different question.</li><li>Immigrants living in Latin America and the Caribbean, 2024: 17.5 million in UN DESA's regional row, 16.6 million when the 26 IDB borrowers are summed, 13.3 million intra-regional migrants in FLown's 1 January estimate for the 33-country region.</li></ul>  </section>
+  <section class="prose prose--wide" >
+<h2>The five families side by side</h2>    <div class="tablewrap"><table class="data-table data-table--text">
+      <thead><tr><th>Family</th><th>Unit</th><th>Migrant identifier</th><th>Geography</th><th>Years</th><th>Periodicity</th><th>Legal status</th><th>Socioeconomic detail</th></tr></thead>
+      <tbody><tr><td>01 ACS and CPS (IPUMS)</td><td>Person, weighted</td><td>Country of birth; year of arrival; citizenship; parents' birthplace (CPS)</td><td>United States; state and PUMA available</td><td>1980–2024 (CPS 1994–2025)</td><td>Annual</td><td>Citizenship only</td><td>Full: education, work, income, poverty, household</td></tr><tr><td>02 Eurostat</td><td>Aggregate counts, permits, applications</td><td>Citizenship (most series) or country of birth (five series)</td><td>31 reporting countries; origin any country</td><td>1998–2026</td><td>Annual; monthly asylum</td><td>Permits by reason, asylum, naturalisation, enforcement</td><td>None by origin country</td></tr><tr><td>03 Household surveys</td><td>Person, weighted</td><td>Born abroad (migrante_ci); 5+ years flag; country of birth in Spain and in HDMF files</td><td>26 LAC countries; Spain; United States</td><td>1986–2025</td><td>Annual or sub-annual rounds</td><td>None (Spain: nationality)</td><td>Full, harmonized across countries</td></tr><tr><td>04 UN DESA and global</td><td>Stocks and flows, modelled or official</td><td>Country of birth (or citizenship where censuses lack it)</td><td>All countries, bilateral</td><td>1990–2024 (remittances to 2025)</td><td>Five-year (UN DESA); annual (FLown, UNHCR, remittances)</td><td>Refugee and asylum categories (UNHCR)</td><td>None</td></tr><tr><td>05 Deportation Data Project</td><td>Event records with anonymized person id</td><td>Citizenship country (ICE); country of birth (USCIS)</td><td>United States; departure country</td><td>FY2012–FY2026; 2000–2026 (USCIS)</td><td>Daily, used monthly and by fiscal year</td><td>Entry status, final order, TPS and DACA applications</td><td>Sex, age, criminal history; no income or education</td></tr></tbody>
+    </table></div>
+  </section>
+  <section class="prose" >
+<h2>Reading our charts</h2><ul><li>Every chart has a table view, its CSV and a PNG in light and dark versions for slides.</li><li>Series keep their colour across the site; grey always marks the residual group (other countries, non-LAC citizens).</li><li>Partial periods are hatched; modelled series say so in the subtitle; notes under the chart carry the caveat that matters most.</li><li>The headline numbers behind each chart are checked against the source project's documentation each time the site is rebuilt.</li></ul>  </section>
+
+
+<nav class="pager" aria-label="Previous and next">
+<a class="pager__link" href="deportation-data.html"><span class="mono-label">Previous</span>05 Deportation Data Project</a></nav>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <p class="footer__title">Migration Data Ecosystem</p>
+      <p class="footer__text">A profile of the data sources used to study migration from Latin America and the Caribbean. Every chart is built from small aggregated tables derived from public or publishable sources; no microdata is published here.</p>
+      <p class="footer__text">Built with Python and Plotly. Last build 2026-10-08.</p>
+    </div>
+    <div>
+      <p class="footer__title">Sources and citations</p>
+      <ul class="footer__list">
+        <li>Ruggles et al., <em>IPUMS USA</em>; Flood et al., <em>IPUMS CPS</em>; US Census Bureau, ACS PUMS.</li>
+        <li>Eurostat migration and asylum statistics (migr_*).</li>
+        <li>IDB Social Sector, harmonized household surveys; INE Spain, EPA (via the HDMF project).</li>
+        <li>UN DESA, <em>International Migrant Stock 2024</em>; Azose and Raftery (2019) FLown estimates accessed via Gaskin and Abel (2025); UNHCR Refugee Data Finder; KNOMAD / World Bank.</li>
+        <li>Deportation Data Project (ICE, USCIS and CBP records released under FOIA).</li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__title">Navigate</p>
+      <ul class="footer__list">
+<li><a href="index.html">Overview</a></li><li><a href="us-acs.html">01 United States</a></li><li><a href="europe-eurostat.html">02 Europe</a></li><li><a href="household-surveys.html">03 Surveys</a></li><li><a href="global-estimates.html">04 Global estimates</a></li><li><a href="deportation-data.html">05 Deportation data</a></li><li><a href="concepts.html">Concepts</a></li>        <li><a href="https://github.com/pablocort/migration-data-ecosystem">Source code on GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

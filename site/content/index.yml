@@ -1,0 +1,128 @@
+title: Migration Data Ecosystem
+description: A profile of the data sources used to study migration from Latin America and the Caribbean, with one or two charts per source.
+eyebrow: Data · Migration · Latin America and the Caribbean
+lead: >-
+  Five families of sources, one map. This site profiles the datasets behind our migration work, from US census
+  microdata to UN stock estimates and immigration-enforcement records, and shows one or two charts per source so
+  the team can see what each one can answer, what it cannot, and where it breaks.
+buttons:
+  - {text: Explore the sources, href: "#sources", kind: btn--primary}
+  - {text: How they fit together, href: concepts.html, kind: btn--secondary}
+  - {text: Source code, href: "https://github.com/pablocort/migration-data-ecosystem", kind: btn--ghost}
+hero_points:
+  - A profile per source: producer, unit of record, geography, years, periodicity, migration variables, access and citation, and the traps we have already hit.
+  - One or two charts per topic, each with a table view, its CSV and a PNG ready for slides.
+  - A concepts page on why the same question returns different numbers from different sources.
+stats:
+  - {label: Source families, value: "5"}
+  - {label: Charts, value: "15"}
+  - {label: Years covered, value: "1986–2026"}
+  - {label: LAC countries of origin, value: "33"}
+sources_heading: What each source gives
+sources_lead: >-
+  Each profile answers the same questions, in the same order, so sources can be compared at a glance. Numbered
+  pages follow the order in which we usually reach for them: destination microdata first, global estimates and
+  enforcement records last.
+cards:
+  - number: "01"
+    title: "United States: ACS and CPS microdata"
+    blurb: >-
+      Person-level census microdata of the 25.8 million LAC-born residents of the United States: country of
+      birth, year of arrival, citizenship, income, work. 1980–2024.
+    tags: [IPUMS USA, Census PUMS, IPUMS CPS, microdata, annual]
+    href: us-acs.html
+    accent: "01"
+  - number: "02"
+    title: "Europe: Eurostat migration statistics"
+    blurb: >-
+      Aggregate counts for 31 reporting countries: residents by country of birth or citizenship, residence
+      permits by reason, asylum, naturalisations and enforcement. 1998–2026.
+    tags: [Eurostat, permits, asylum, aggregates, annual and monthly]
+    href: europe-eurostat.html
+    accent: "02"
+  - number: "03"
+    title: "Household surveys: LAC, Spain and the US"
+    blurb: >-
+      Comparable microdata with one concept, born abroad: the IDB harmonized bank for 26 LAC countries, Spain's
+      EPA through the HDMF project, and the US surveys of page 01.
+    tags: [IDB harmonized surveys, EPA, migrante_ci, migrants vs natives]
+    href: household-surveys.html
+    accent: "03"
+  - number: "04"
+    title: "UN DESA and global estimates"
+    blurb: >-
+      The global anchors: UN DESA migrant stocks, FLown annual bilateral estimates, UNHCR displacement data,
+      population prospects and remittances. 1990–2025.
+    tags: [UN DESA, FLown, UNHCR, KNOMAD, WPP, bilateral]
+    href: global-estimates.html
+    accent: "04"
+  - number: "05"
+    title: "Deportation Data Project"
+    blurb: >-
+      Record-level US enforcement data released under FOIA: ICE removals, arrests and detentions, USCIS TPS and
+      DACA applications, CBP encounters. FY2012–FY2026.
+    tags: [ICE, USCIS, CBP, FOIA, record-level, monthly]
+    href: deportation-data.html
+    accent: "05"
+coverage_heading: How far back, and how often
+coverage_lead: >-
+  Years available per product. Hover a bar for periodicity and unit of record. Microdata and record-level
+  sources sit at the top; modelled and aggregate series at the bottom.
+map_heading: Sources by geography and type of data
+map_lead: >-
+  The same question, where do migrants from LAC live and how do they fare, can be asked of four kinds of data.
+  Chips link to the profile where each source is described.
+map:
+  columns: ["Microdata: surveys and censuses", "Administrative records", "Official stocks and flows", "Modelled estimates and macro series"]
+  rows:
+    - label: United States
+      sub: as destination
+      cells:
+        - [{text: "ACS and census microdata (IPUMS USA)", section: "01", href: us-acs.html}, {text: "CPS ASEC (IPUMS CPS)", section: "01", href: us-acs.html}]
+        - [{text: "ICE removals, arrests, detentions", section: "05", href: deportation-data.html}, {text: "USCIS TPS and DACA applications", section: "05", href: deportation-data.html}, {text: "CBP Border Patrol encounters", section: "05", href: deportation-data.html}]
+        - [{text: "UN DESA migrant stock, US as destination", section: "04", href: global-estimates.html}]
+        - [{text: "FLown annual bilateral stocks and flows", section: "04", href: global-estimates.html}, {text: "Remittances sent, by corridor", section: "04", href: global-estimates.html}]
+    - label: Europe and Spain
+      sub: as destination
+      cells:
+        - [{text: "Spain EPA, LAC-born (HDMF extract)", section: "03", href: household-surveys.html}]
+        - [{text: "Eurostat residence permits", section: "02", href: europe-eurostat.html}, {text: "Eurostat asylum and enforcement", section: "02", href: europe-eurostat.html}, {text: "IME consular records (Mexicans abroad)", section: "02", href: europe-eurostat.html}]
+        - [{text: "Eurostat population by country of birth and citizenship", section: "02", href: europe-eurostat.html}, {text: "UN DESA migrant stock", section: "04", href: global-estimates.html}]
+        - [{text: "FLown annual bilateral stocks", section: "04", href: global-estimates.html}]
+    - label: Latin America and the Caribbean
+      sub: as origin and as destination
+      cells:
+        - [{text: "IDB harmonized household surveys, 26 countries", section: "03", href: household-surveys.html}]
+        - [{text: "Returnee registries and SEGOB (not profiled)", section: other, href: "#also"}]
+        - [{text: "UN DESA migrant stock, origin and destination", section: "04", href: global-estimates.html}, {text: "UNHCR refugees and asylum-seekers", section: "04", href: global-estimates.html}]
+        - [{text: "FLown intra-regional flows", section: "04", href: global-estimates.html}, {text: "Remittances received (KNOMAD, central banks)", section: "04", href: global-estimates.html}, {text: "UN population prospects", section: "04", href: global-estimates.html}]
+    - label: Global
+      sub: all countries
+      cells:
+        - []
+        - []
+        - [{text: "UN DESA migrant stock, 230 countries", section: "04", href: global-estimates.html}, {text: "UNHCR Refugee Data Finder", section: "04", href: global-estimates.html}]
+        - [{text: "Gaskin and Abel modelled flows", section: "04", href: global-estimates.html}, {text: "World Population Prospects 2024", section: "04", href: global-estimates.html}, {text: "Remittance prices (World Bank)", section: "04", href: global-estimates.html}]
+  legend:
+    - ["01", "01 United States"]
+    - ["02", "02 Europe"]
+    - ["03", "03 Household surveys"]
+    - ["04", "04 Global estimates"]
+    - ["05", "05 Deportation data"]
+    - ["other", "In the ecosystem, not profiled yet"]
+also_heading: Other material we hold but do not profile yet
+also:
+  - {name: "DHS OHSS enforcement tables", text: "removals by region and month, and an IPUMS USA extract used for cross-checks."}
+  - {name: "Mexico SEGOB", text: "irregular-migration events in Mexico, 2016–2025, used for Honduran returns."}
+  - {name: "Returnee registries", text: "Honduras SIAMIR and Guatemala IGM returnee records with IOM and SEGOB series; the Northern Central America returns story."}
+  - {name: "Regularization programmes", text: "a compilation of LAC regularizations and Chile's SERMIG permits, 2000–2023."}
+  - {name: "Meta international migration flows", text: "a public estimate of bilateral flows from Facebook data."}
+  - {name: "IOM Missing Migrants Project", text: "deaths and disappearances along migration routes."}
+  - {name: "IDB Lab airport survey of remittance senders", text: "35,800 interviews, 2014–2021, a migrant survey rather than a household survey."}
+howto_heading: Conventions used on every page
+howto:
+  - Every chart has three exits below it: the PNG for slides (light and dark), the CSV behind the chart, and a table view for screen readers and for checking a number.
+  - Colors mean the same thing across the site. A series keeps its hue whatever is filtered out; grey is always the residual group.
+  - A profile block lists the same fields for every source, so a missing field is itself information.
+  - Counts come from the source projects' own pipelines; each extractor checks the headline numbers against the project documentation before a chart is drawn.
+  - Nothing here is person-level. The repository holds only the small aggregated tables shown in the charts.

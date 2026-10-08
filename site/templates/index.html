@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">{{ page.eyebrow }}</p>
+      <h1 class="hero__title">{{ page.title }}</h1>
+      <p class="hero__lead">{{ page.lead }}</p>
+      <div class="hero__actions">
+        {% for b in page.buttons %}<a class="btn {{ b.kind }}" href="{{ b.href }}">{{ b.text }}</a>{% endfor %}
+      </div>
+    </div>
+    <aside class="hero__aside">
+      <p class="mono-label">What you will find</p>
+      <ul class="hero__list">
+        {% for item in page.hero_points %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </aside>
+  </div>
+  <div class="container">
+    <dl class="figures">
+      {% for s in page.stats %}
+      <div class="figure"><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="sources">
+  <div class="container">
+    <div class="section-head">
+      <p class="mono-label">The five sources</p>
+      <h2>{{ page.sources_heading }}</h2>
+      <p class="section-lead">{{ page.sources_lead }}</p>
+    </div>
+    <div class="card-grid">
+      {% for c in page.cards %}
+      <a class="card accent-{{ c.accent }}" href="{{ c.href }}">
+        <span class="card__num">{{ c.number }}</span>
+        <span class="card__title">{{ c.title }}</span>
+        <span class="card__blurb">{{ c.blurb }}</span>
+        <span class="card__tags">{% for t in c.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>
+        <span class="card__cta">Open the profile <span aria-hidden="true">→</span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep" id="coverage">
+  <div class="container">
+    <div class="section-head">
+      <p class="mono-label">Coverage</p>
+      <h2>{{ page.coverage_heading }}</h2>
+      <p class="section-lead">{{ page.coverage_lead }}</p>
+    </div>
+    {{ charts['ov_coverage_timeline'] }}
+  </div>
+</section>
+
+<section class="section" id="map">
+  <div class="container">
+    <div class="section-head">
+      <p class="mono-label">How the pieces fit</p>
+      <h2>{{ page.map_heading }}</h2>
+      <p class="section-lead">{{ page.map_lead }}</p>
+    </div>
+    <div class="ecomap" role="table" aria-label="Sources by geography and type of data">
+      <div class="ecomap__row ecomap__row--head" role="row">
+        <div class="ecomap__corner" role="columnheader">Geography ↓ · Type of data →</div>
+        {% for col in page.map.columns %}<div class="ecomap__colhead" role="columnheader">{{ col }}</div>{% endfor %}
+      </div>
+      {% for row in page.map.rows %}
+      <div class="ecomap__row" role="row">
+        <div class="ecomap__rowhead" role="rowheader"><span>{{ row.label }}</span><small>{{ row.sub }}</small></div>
+        {% for cell in row.cells %}
+        <div class="ecomap__cell" role="cell">
+          {% for chip in cell %}<a class="chip chip--{{ chip.section }}" href="{{ chip.href }}">{{ chip.text }}</a>{% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    <p class="ecomap__legend">
+      {% for k, v in page.map.legend %}<span class="chip chip--{{ k }} chip--static">{{ v }}</span>{% endfor %}
+    </p>
+  </div>
+</section>
+
+<section class="section section--deep" id="also">
+  <div class="container two-col">
+    <div>
+      <div class="section-head">
+        <p class="mono-label">Also in the ecosystem</p>
+        <h2>{{ page.also_heading }}</h2>
+      </div>
+      <ul class="plain-list">
+        {% for item in page.also %}<li><strong>{{ item.name }}</strong> — {{ item.text }}</li>{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <div class="section-head">
+        <p class="mono-label">How to read this site</p>
+        <h2>{{ page.howto_heading }}</h2>
+      </div>
+      <ul class="plain-list">
+        {% for item in page.howto %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock %}

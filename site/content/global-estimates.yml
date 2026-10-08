@@ -1,0 +1,127 @@
+number: "04"
+eyebrow: Global anchors for stocks, flows, displacement and remittances
+title: "UN DESA and global estimates"
+description: Profile of the UN DESA migrant stock, the FLown annual bilateral estimates, UNHCR displacement data, UN population prospects and remittance sources.
+lead: >-
+  The folder we call undesa holds five different products. UN DESA's International Migrant Stock is the official
+  anchor; FLown adds an annual, modelled bilateral series; UNHCR adds forced displacement; the World Population
+  Prospects give denominators; and the remittance files tie the diaspora to the money it sends home. This page
+  classifies them and shows one chart per product.
+tags: [bilateral stocks, annual flow estimates, refugees, population, remittances, 1990–2025, country level]
+jump:
+  - {id: profile-undesa, text: UN DESA IMS}
+  - {id: profile-flown, text: FLown estimates}
+  - {id: profile-unhcr, text: UNHCR}
+  - {id: profile-remit, text: Remittances}
+  - {id: profile-macro, text: Population and macro}
+  - {id: traps, text: Known traps}
+prev: {href: household-surveys.html, text: "03 Household surveys"}
+next: {href: deportation-data.html, text: "05 Deportation Data Project"}
+blocks:
+  - type: profile
+    id: profile-undesa
+    name: "UN DESA International Migrant Stock 2024"
+    summary: >-
+      The United Nations estimate of how many international migrants live in every country, by country of origin
+      and sex, every five years since 1990 and again in 2024. It is the reference everyone else is benchmarked
+      against, including Eurostat and the modelled series below.
+    rows:
+      - ["Producer", "UN DESA Population Division, International Migrant Stock 2024 (and the 2020 revision for age)."]
+      - ["Unit of record", "Migrant stock in persons at mid-year, by destination, origin and sex; a coverage code per row says whether the figure counts the foreign-born, foreign citizens, includes refugees or is imputed."]
+      - ["Geography", "Around 230 countries and areas plus regional and development-group aggregates; the LAC aggregate covers 33 countries and territories, while the 26 IDB borrowers hold 95% of its immigrants."]
+      - ["Time coverage", "1990, 1995, 2000, 2005, 2010, 2015, 2020, 2024. Age and sex by destination only in the 2020 revision (no 2024 age data)."]
+      - ["Periodicity", "Five-year steps, then 2024."]
+      - ["Strengths", "Official, comparable, bilateral; the right anchor for shares and levels."]
+      - ["Caveats", "Sparse in time; imputations between censuses; name variants (Bolivia (Plurinational State of), Venezuela (Bolivarian Republic of), United States of America with an asterisk); the 2024 file is a new vintage, not an extension of the 2020 series."]
+      - ["Access", "Open, with attribution."]
+      - ["What we hold", "The 2024 and 2020 bilateral files, the 2020 age file, a merged working table (destination by origin by year), long-format exports and the canonical destination and origin tables, some of which carry manual edits."]
+  - type: chart
+    id: gl_immigrant_stock_lac
+  - type: profile
+    id: profile-flown
+    name: "FLown annual bilateral estimates (Azose and Raftery 2019, via Gaskin and Abel 2025)"
+    summary: >-
+      A statistical model that turns the UN stocks, population data and other inputs into an annual bilateral
+      series of stocks and flows with uncertainty. It is the only source that lets us see year by year where the
+      diaspora of each country lives and how fast each corridor moves.
+    rows:
+      - ["Producer", "Azose and Raftery (2019) FLown estimates, distributed with Gaskin and Abel (2025), Deep learning four decades of human migration (arXiv 2506.22821; dataset on Hugging Face, GPL-3.0)."]
+      - ["Unit of record", "Modelled bilateral stock at 1 January and flows by previous residence and by birth, with standard deviations; country totals of immigration, emigration and net migration."]
+      - ["Geography", "All countries (ISO3), including LAC territories."]
+      - ["Time coverage", "Annual, 1990–2024."]
+      - ["Strengths", "Annual and bilateral; splits every diaspora by destination (LAC, United States, Spain, other); captures the Venezuelan displacement inside the region (Venezuela explains 81% of the 2020–2024 rise in intra-LAC stock)."]
+      - ["Caveats", "Model output, not counts; two versions circulate and differ by up to 65% on small corridors (we use the LSE file); stocks are dated 1 January, UN DESA's mid-year; the model concentrates 71.5% of the 2020–2024 growth of the US stock in 2023; a few tiny corridors go negative; the unilateral file's population columns repeat the flows."]
+      - ["What we hold", "The bilateral and unilateral CSVs, intra-LAC panels, the emigrants-by-destination table (48 origins, 1990–2024) and the eligibility workbook for the IDB migration facility."]
+  - type: chart
+    id: gl_emigrants_destination
+  - type: profile
+    id: profile-unhcr
+    name: "UNHCR Refugee Data Finder"
+    summary: >-
+      Persons under UNHCR's mandate by country of origin and country of asylum: refugees, asylum-seekers, returned
+      refugees, internally displaced, stateless, others of concern and, since 2018, other people in need of
+      international protection, the category that holds most displaced Venezuelans.
+    rows:
+      - ["Producer", "UNHCR, population statistics (API v1)."]
+      - ["Unit of record", "End-year stock of persons by population type, origin and asylum country."]
+      - ["Geography", "LAC countries as origin (26 origins, 105 host countries) and as asylum (26 hosts, 174 origins)."]
+      - ["Time coverage", "1990–2024, annual."]
+      - ["Strengths", "The forced-displacement layer; bilateral; consistent definitions across hosts."]
+      - ["Caveats", "Asylum-seeker stocks depend on processing backlogs, not only on arrivals; displaced Venezuelans are mostly counted as other people in need of protection (5.9 million in 2024) rather than refugees; small numbers before 2000 reflect reporting, not peace."]
+      - ["Access", "Open, with attribution."]
+  - type: chart
+    id: gl_displaced_lac_origin
+  - type: profile
+    id: profile-remit
+    name: "Remittances: KNOMAD and World Bank, central-bank corridors, remittance prices"
+    summary: >-
+      Three layers. Macro inflows per country from KNOMAD and the World Bank; bilateral inflows by sending country
+      compiled from central banks for fifteen recipients; and the cost of sending money, from the World Bank's
+      Remittance Prices Worldwide. A derived dataset joins the corridors to the FLown stocks to express remittances
+      per migrant.
+    rows:
+      - ["Macro inflows", "KNOMAD / World Bank, 2000–2025, in US dollars and as a share of GDP, 28 LAC economies plus regional aggregates."]
+      - ["Bilateral corridors", "Central banks (Banxico, Banrep, BCB, BCE, BOJ, BRH, among others): 37,215 rows, 15 recipients, mixed monthly, quarterly and annual periodicity, with a source URL and a confidence flag per row. Complete series for Mexico, Colombia, Jamaica, Haiti, Bolivia and Suriname; thin for El Salvador, Panama, Nicaragua, Honduras and Paraguay; Guatemala and the Dominican Republic absent (national totals for Guatemala, El Salvador and Honduras are added by assumption as US corridors)."]
+      - ["Sending costs", "Remittance Prices Worldwide, 2011–2025 Q1, cost of sending 200 and 500 dollars by firm and corridor."]
+      - ["Derived dataset", "remittances_migrant_stock: corridor-year remittances joined to FLown stocks, with completeness flags and a data dictionary; remittances per migrant and per employed migrant feed the Age Shift deck."]
+      - ["Caveats", "Sender labels are unnormalized (the United States appears under five names); join keys run in opposite directions between the two sources; the assumed-basis corridors run about 8% high."]
+  - type: chart
+    id: gl_remittances_gdp
+  - type: profile
+    id: profile-macro
+    name: "Population and macro context"
+    rows:
+      - ["UN World Population Prospects 2024", "Population by five-year age group and sex, estimates and projection variants; used for denominators, ageing shares and dependency ratios (also World Bank WDI)."]
+      - ["IMF exchange rates", "Monthly bilateral and effective exchange rates for LAC currencies, 2010 onwards, for remittance deflation."]
+      - ["UNCTAD FDI and OECD DAC aid", "Annual inflows by country and region, for the macro chapter of the remittances work."]
+      - ["Bahamas work permits", "Permits by industry, occupation and nationality, 2018–2024, parsed from the Department of Immigration's PDF reports."]
+  - type: text
+    id: questions
+    heading: Questions it answers
+    bullets:
+      - How many migrants live in each LAC country and where each diaspora lives, in levels and shares, 1990 to 2024.
+      - Which corridors moved in a given year (FLown), and how the intra-regional stock quadrupled from 3.5 to 13.3 million.
+      - How large the forced-displacement component is, by origin and host.
+      - How much money comes back, from which countries, at what cost, and per migrant.
+      - Eligibility-type questions for the IDB's migration facility: inflows as a share of the population over three years.
+  - type: callouts
+    id: traps
+    heading: Known traps
+    items:
+      - {title: "Two FLown files, two answers", text: "The Hugging Face copy and the LSE estimates file differ. Every script uses the LSE file; keep it that way."}
+      - {title: "1 January vs mid-year", text: "FLown stocks are dated 1 January and UN DESA's at mid-year; fast-growing corridors sit below UN DESA (IDB26-born in Colombia 2024: 2.74 vs 2.97 million)."}
+      - {title: "Do not use FLown implied populations", text: "The sum of all stocks into a country is off the WPP population by up to 15%. Pair FLown with WPP denominators."}
+      - {title: "LAC is not IDB26", text: "UN DESA's Latin America and the Caribbean row includes Cuba, Puerto Rico and territories; summing the 26 IDB borrowers gives 95% of it."}
+      - {title: "No 2024 age data", text: "Age breakdowns stop at the 2020 revision; our 2024 school-age figures are the 2020 values scaled."}
+      - {title: "Hand-edited canonical tables", text: "The destination and origin workbooks carry manual columns; rerunning the processing script overwrites them."}
+  - type: links
+    heading: Pairs well with
+    items:
+      - {text: "01 United States: ACS and CPS", href: us-acs.html, note: "survey stocks against UN DESA and FLown stocks for the US corridor."}
+      - {text: "02 Europe: Eurostat", href: europe-eurostat.html, note: "Eurostat agrees with UN DESA and Gaskin and Abel within 2–3% on the born-in series."}
+      - {text: "05 Deportation data", href: deportation-data.html, note: "removals and detentions are joined to remittance corridors in the derived panels."}
+citation: >-
+  United Nations, Department of Economic and Social Affairs, Population Division (2024), International Migrant
+  Stock 2024. Azose and Raftery (2019) FLown estimates, accessed via Gaskin, T. and Abel, G. (2025), Deep learning
+  four decades of human migration. UNHCR Refugee Data Finder. KNOMAD / World Bank, remittance inflows. UN DESA,
+  World Population Prospects 2024.
