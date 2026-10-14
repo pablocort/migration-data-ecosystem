@@ -64,7 +64,7 @@
   <section class="links" {% if b.id %}id="{{ b.id }}"{% endif %}>
     {% if b.heading %}<h2>{{ b.heading }}</h2>{% endif %}
     <ul class="link-list">
-      {% for l in b['items'] %}<li><a href="{{ l.href }}">{{ l.text }}</a>{% if l.note %} <span class="link-note">{{ l.note }}</span>{% endif %}</li>{% endfor %}
+      {% for l in b['items'] %}<li><a href="{{ l.href }}">{{ l.text }}</a>{% if l.note %}<span class="link-note">: {{ l.note }}</span>{% endif %}</li>{% endfor %}
     </ul>
   </section>
   {% endif %}
@@ -72,7 +72,7 @@
 
 {% if page.citation %}
 <section class="cite">
-  <p class="mono-label">How to cite the data</p>
+  <p class="mono-label">How to cite</p>
   <p>{{ page.citation }}</p>
 </section>
 {% endif %}

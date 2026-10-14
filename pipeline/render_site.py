@@ -8,7 +8,7 @@ import yaml
 from jinja2 import Environment, FileSystemLoader
 
 from .charts import CHARTS
-from .config import CHARTS_OUT, DATA_OUT, FIG_OUT, REPO_URL, SITE_OUT, SITE_SRC, SITE_URL
+from .config import CHARTS_OUT, FIG_OUT, REPO_URL, SITE_OUT, SITE_SRC, SITE_URL
 
 NAV = [
     ("index.html", "Overview", "Overview"),
@@ -56,7 +56,7 @@ def render() -> None:
     content = load_content()
     fragments = load_fragments()
     pages = content["pages"]
-    common = dict(nav=NAV, site_url=SITE_URL, repo_url=REPO_URL, built=date.today().isoformat(),
+    common = dict(nav=NAV, site_url=SITE_URL, repo_url=REPO_URL, updated=date.today().strftime("%B %Y"),
                   charts=fragments, chart_meta=CHARTS, pages=pages)
 
     SITE_OUT.mkdir(exist_ok=True)
@@ -67,14 +67,16 @@ def render() -> None:
 
     page_tpl = env.get_template("page.html")
     for slug in pages:
-        page = content[slug.replace("-", "_")] if slug.replace("-", "_") in content else content[slug]
-        (SITE_OUT / f"{slug}.html").write_text(page_tpl.render(page=page, slug=slug, **common), encoding="utf-8")
+        (SITE_OUT / f"{slug}.html").write_text(page_tpl.render(page=content[slug], slug=slug, **common),
+                                               encoding="utf-8")
 
     # copy over existing files instead of deleting folders: OneDrive holds locks on directories
     shutil.copytree(SITE_SRC / "static", SITE_OUT / "assets", dirs_exist_ok=True)
-    shutil.copytree(FIG_OUT, SITE_OUT / "figures", dirs_exist_ok=True)
+    (SITE_OUT / "figures").mkdir(exist_ok=True)
+    for f in FIG_OUT.glob("*.png"):
+        shutil.copy(f, SITE_OUT / "figures" / f.name)
     (SITE_OUT / "data").mkdir(exist_ok=True)
-    for f in DATA_OUT.glob("*.csv"):
+    for f in CHARTS_OUT.glob("*.csv"):  # the public CSVs (readable headers), not the internal data/ tables
         shutil.copy(f, SITE_OUT / "data" / f.name)
     print(f"  [site] rendered {1 + len(pages)} pages into {SITE_OUT}")
 

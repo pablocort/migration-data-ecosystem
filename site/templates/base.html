@@ -6,9 +6,10 @@
 {% set current = (slug ~ '.html') if slug is defined else 'index.html' %}
 <title>{% block title %}{{ page.title }}{% endblock %} · Migration Data Ecosystem</title>
 <meta name="description" content="{{ page.description }}">
+<meta name="color-scheme" content="light">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <script src="https://cdn.plot.ly/plotly-3.5.0.min.js" charset="utf-8"></script>
@@ -38,24 +39,23 @@
   <div class="container footer__grid">
     <div>
       <p class="footer__title">Migration Data Ecosystem</p>
-      <p class="footer__text">A profile of the data sources used to study migration from Latin America and the Caribbean. Every chart is built from small aggregated tables derived from public or publishable sources; no microdata is published here.</p>
-      <p class="footer__text">Built with Python and Plotly. Last build {{ built }}.</p>
+      <p class="footer__text">A guide to the migration data available to our team. Charts show aggregated figures only.</p>
+      <p class="footer__text">Updated {{ updated }}.</p>
     </div>
     <div>
-      <p class="footer__title">Sources and citations</p>
+      <p class="footer__title">Sources</p>
       <ul class="footer__list">
-        <li>Ruggles et al., <em>IPUMS USA</em>; Flood et al., <em>IPUMS CPS</em>; US Census Bureau, ACS PUMS.</li>
-        <li>Eurostat migration and asylum statistics (migr_*).</li>
-        <li>IDB Social Sector, harmonized household surveys; INE Spain, EPA (via the HDMF project).</li>
-        <li>UN DESA, <em>International Migrant Stock 2024</em>; Azose and Raftery (2019) FLown estimates accessed via Gaskin and Abel (2025); UNHCR Refugee Data Finder; KNOMAD / World Bank.</li>
-        <li>Deportation Data Project (ICE, USCIS and CBP records released under FOIA).</li>
+        <li>IPUMS USA and IPUMS CPS; US Census Bureau, American Community Survey.</li>
+        <li>Eurostat, migration and asylum statistics.</li>
+        <li>IDB, Harmonized Household Surveys; INE Spain, Labour Force Survey.</li>
+        <li>UN DESA, International Migrant Stock 2024; Azose and Raftery (2019) via Gaskin and Abel (2025); UNHCR; World Bank and KNOMAD.</li>
+        <li>Deportation Data Project: ICE and USCIS records.</li>
       </ul>
     </div>
     <div>
-      <p class="footer__title">Navigate</p>
+      <p class="footer__title">Pages</p>
       <ul class="footer__list">
         {% for href, label, short in nav %}<li><a href="{{ href }}">{{ label }}</a></li>{% endfor %}
-        <li><a href="{{ repo_url }}">Source code on GitHub</a></li>
       </ul>
     </div>
   </div>

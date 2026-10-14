@@ -21,11 +21,14 @@ Five source families are profiled:
 pipeline/
   config.py            paths (MIG_DATA_ROOT env var), validated chart palette, constants
   countries.py         LAC country crosswalk (ISO codes, Census POBP codes, UN DESA and ICE names)
-  theme.py             Plotly templates (dark for the site, dark and light for PNG export)
+  theme.py             Plotly templates (light, projection-sized type) for the site and the PNG export
   coverage.py          hand-maintained time-coverage inventory for the index timeline
   extract_*.py         one extractor per source family -> data/<chart id>.csv (small aggregates)
-  charts.py            chart builders -> charts/<id>.html fragments and figures/{dark,light}/<id>.png
+  charts.py            chart builders -> charts/<id>.html fragments, charts/<id>.csv (public, readable
+                       headers) and figures/<id>.png
   render_site.py       Jinja2 templates + site/content/*.yml -> docs/
+  check_public.py      fails the build if a published page or CSV header carries internal references
+                       (variable or dataset codes, file or pipeline words); warns on sentences over 25 words
   build.py             orchestrates everything
 site/
   templates/           base.html, index.html, page.html
@@ -37,9 +40,16 @@ figures/               generated PNGs for slides (not committed; the published c
 docs/                  rendered site served by GitHub Pages (committed)
 ```
 
+The site is built to be projected. It uses a light theme in which every readable text clears 7:1 contrast.
+Each chart card (title, plot and footnote) fits one screen at 1280×720 and larger. Charts have no
+subtitles: what a reader must know goes in the footnote. Press N or P on a page to jump to the next or
+previous chart or section.
+
 Charts follow a documented data-visualization method: forms chosen by the data's job, a categorical palette
-validated for colour-vision deficiency and contrast against the site's surfaces, thin marks, hairline grids,
+validated for colour-vision deficiency and contrast against a white surface, thin marks, hairline grids,
 a legend for every multi-series chart, and a table view plus CSV for every chart.
+
+The presentation script lives in `presentacion/`, which is excluded from git.
 
 ### Rebuild
 

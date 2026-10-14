@@ -1,55 +1,49 @@
 number: null
 eyebrow: Reading across sources
-title: Concepts and comparability
+title: "Concepts: why numbers differ"
 description: Why the same migration question returns different numbers from different sources, and how the five source families line up.
-lead: >-
-  Every source on this site counts something slightly different: a person born abroad, a passport, a permit, an
-  application, an event. Most disagreements between numbers are definitions, dates or universes rather than
-  errors. This page lists the ones we meet most often and puts the five families side by side.
-prev: {href: deportation-data.html, text: "05 Deportation Data Project"}
+lead: Each source counts something different, such as a person born abroad, a passport, a permit or an event. Most gaps between numbers come from that, not from errors.
+prev: {href: deportation-data.html, text: "05 Deportation data"}
 next: null
 blocks:
   - type: table
     heading: Four ways to count a migrant
-    lead: The unit behind each source, and what it misses.
-    columns: [Concept, What is counted, Where it is used, Who it leaves out]
+    lead: What each source counts, and who it leaves out.
+    columns: [Concept, What is counted, Used by, Leaves out]
     rows:
-      - ["Born abroad (foreign-born)", "People whose place of birth is another country, whatever their passport", "ACS and CPS (IPUMS), IDB harmonized surveys (migrante_ci), Spain EPA, UN DESA for most countries, Eurostat born-in series", "Children of migrants born in the destination; in the Census definition, also people born abroad to citizen parents"]
-      - ["Foreign citizen", "People holding the citizenship of another country", "Eurostat citizenship series, residence permits and asylum; ICE removals (citizenship country)", "Migrants who naturalized (5,700 Mexicans a year in Europe); dual nationals by the passport used"]
-      - ["Permit or application", "Documents: valid permits, first permits, applications filed", "Eurostat permits; USCIS TPS and DACA", "People without a permit, EU-citizen family members; one person can hold several documents over time"]
-      - ["Event", "Something that happened to a person: a removal, an arrest, a detention stay, an encounter", "Deportation Data Project; Eurostat enforcement", "The same person can appear several times; events are not people and not stocks"]
+      - ["Born abroad", "People born in another country, whatever their passport", "US surveys, household surveys, UN DESA, Eurostat by birth", "Children of migrants born in the destination"]
+      - ["Citizenship", "People with a foreign passport", "Eurostat permits and asylum, ICE removals", "Migrants who naturalized"]
+      - ["Permit or application", "Documents, not people", "Eurostat permits, TPS and DACA applications", "People without papers. One person can hold several documents."]
+      - ["Event", "Something that happened, such as a removal, an arrest or a detention", "Deportation Data Project, Eurostat returns", "Nothing, but events repeat for the same person"]
   - type: table
-    heading: Dates, universes and years
+    heading: Dates and years
     columns: [Convention, Sources, What to watch]
     rows:
-      - ["Mid-year stock", "UN DESA International Migrant Stock", "Dated 1 July; 2024 is a new vintage rather than an extension of the 2020 series"]
-      - ["1 January stock", "FLown and Gaskin and Abel; Eurostat population series", "Fast-growing corridors sit below mid-year figures of the same year"]
-      - ["Survey reference period", "ACS (continuous through the year), CPS (March), EPA (quarters), LAC surveys (varies)", "Annual stacks of quarterly surveys need weights divided by the number of quarters"]
-      - ["US fiscal year", "ICE, USCIS and CBP", "October to September; FY2026 ends on the data cut of 11 March 2026"]
-      - ["Reporting-country panels", "Eurostat", "A series summed over reporting countries grows with reporting; compare fixed panels"]
-      - ["First-time vs subsequent", "Eurostat asylum", "Subsequent applications repeat people; use first-time applicants for arrivals"]
+      - ["Mid-year", "UN migrant stock", "Figures are for 1 July."]
+      - ["1 January", "Annual estimates, Eurostat population", "Below mid-year figures when a group grows fast."]
+      - ["Survey period", "US, Spanish and LAC surveys", "Yearly, quarterly or monthly, by survey."]
+      - ["US fiscal year", "ICE, USCIS and Border Patrol", "October to September."]
+      - ["Reporting countries", "Eurostat", "More countries report over time. Compare the same set."]
   - type: text
     heading: The same number from different sources
-    html: >-
-      <p>Three examples from our own work, each with the two or three figures that circulate.</p>
     bullets:
-      - "People born in Mexico living in the United States, 2024: 11.59 million by IPUMS birthplace (any citizenship) and 11.15 million as Census foreign-born (naturalized or non-citizen); the gap is people born abroad to US-citizen parents."
-      - "People born in Mexico living in Spain, 2024: Eurostat 79,581; Gaskin and Abel 77,984; UN DESA 77,724; Mexican citizens with a valid permit 33,849. The first three agree within 3%; the permit count answers a different question."
-      - "Immigrants living in Latin America and the Caribbean, 2024: 17.5 million in UN DESA's regional row, 16.6 million when the 26 IDB borrowers are summed, 13.3 million intra-regional migrants in FLown's 1 January estimate for the 33-country region."
+      - "People born in Mexico living in the US, 2024: 11.6 million by place of birth and 11.2 million as foreign-born. The gap is people born abroad to US parents."
+      - "People born in Mexico living in Spain: about 80,000 in 2024, by Eurostat, the UN and the annual estimates. Only 34,000 Mexicans held a valid permit in 2025."
+      - "Migrants living in LAC, 2024: 17.5 million in the UN regional total and 16.6 million in the 26 IDB borrowing countries."
   - type: table
     heading: The five families side by side
-    columns: [Family, Unit, Migrant identifier, Geography, Years, Periodicity, Legal status, Socioeconomic detail]
+    columns: [Family, Unit, How it spots migrants, Places, Years, How often]
     rows:
-      - ["01 ACS and CPS (IPUMS)", "Person, weighted", "Country of birth; year of arrival; citizenship; parents' birthplace (CPS)", "United States; state and PUMA available", "1980–2024 (CPS 1994–2025)", "Annual", "Citizenship only", "Full: education, work, income, poverty, household"]
-      - ["02 Eurostat", "Aggregate counts, permits, applications", "Citizenship (most series) or country of birth (five series)", "31 reporting countries; origin any country", "1998–2026", "Annual; monthly asylum", "Permits by reason, asylum, naturalisation, enforcement", "None by origin country"]
-      - ["03 Household surveys", "Person, weighted", "Born abroad (migrante_ci); 5+ years flag; country of birth in Spain and in HDMF files", "26 LAC countries; Spain; United States", "1986–2025", "Annual or sub-annual rounds", "None (Spain: nationality)", "Full, harmonized across countries"]
-      - ["04 UN DESA and global", "Stocks and flows, modelled or official", "Country of birth (or citizenship where censuses lack it)", "All countries, bilateral", "1990–2024 (remittances to 2025)", "Five-year (UN DESA); annual (FLown, UNHCR, remittances)", "Refugee and asylum categories (UNHCR)", "None"]
-      - ["05 Deportation Data Project", "Event records with anonymized person id", "Citizenship country (ICE); country of birth (USCIS)", "United States; departure country", "FY2012–FY2026; 2000–2026 (USCIS)", "Daily, used monthly and by fiscal year", "Entry status, final order, TPS and DACA applications", "Sex, age, criminal history; no income or education"]
+      - ["01 US surveys", "People", "Country of birth, year of arrival, citizenship", "United States", "1980–2024", "Every year"]
+      - ["02 Eurostat", "Counts, permits, applications", "Citizenship or country of birth", "About 30 European countries", "1998–2026", "Every year; asylum every month"]
+      - ["03 Household surveys", "People", "Born in another country", "26 LAC countries, Spain and the US", "1986–2025", "Every year or quarter"]
+      - ["04 Global estimates", "Migrants, moves, money", "Country of birth or origin", "Every country", "1990–2025", "Every five years or every year"]
+      - ["05 Deportation data", "Events and applications", "Citizenship or country of birth", "United States", "2000–2026", "Every day"]
   - type: text
     heading: Reading our charts
     bullets:
-      - Every chart has a table view, its CSV and a PNG in light and dark versions for slides.
-      - Series keep their colour across the site; grey always marks the residual group (other countries, non-LAC citizens).
-      - Partial periods are hatched; modelled series say so in the subtitle; notes under the chart carry the caveat that matters most.
-      - The headline numbers behind each chart are checked against the source project's documentation each time the site is rebuilt.
+      - Each chart fits one screen. Its note says what to keep in mind.
+      - Each series keeps its color across the site. Grey is always the rest.
+      - Partial periods are hatched. Modelled series say so in the note.
+      - Every chart has a table, a CSV file and a PNG.
 citation: null

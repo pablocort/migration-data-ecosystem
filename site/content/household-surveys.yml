@@ -1,76 +1,59 @@
 number: "03"
-eyebrow: Comparable microdata across destinations
-title: "Household surveys: the IDB harmonized bank, Spain's EPA and the US surveys"
-description: Profile of the household-survey microdata that allow migrant-versus-native comparisons with one definition across LAC, Spain and the United States.
-lead: >-
-  Three families of household surveys share one concept, a person born in another country, and the same way of
-  measuring it: an expansion-weighted microdata record with age, sex, education, work and income. That is what
-  makes it possible to ask the same question of a Colombian in Santiago, in Madrid and in Miami. This page profiles
-  the three families together and sends you to page 01 for the United States in depth.
-tags: [person-level microdata, born abroad, migrants vs natives, 26 LAC countries, Spain EPA, US ACS and CPS]
+eyebrow: Comparable data across destinations
+title: "Household surveys: LAC, Spain and the US"
+description: Profile of the household surveys that compare migrants and natives with one definition across Latin America and the Caribbean, Spain and the United States.
+lead: Three families of surveys share one definition, a person born in another country. So we can compare migrants and natives the same way in Santiago, Madrid and Miami.
+tags: [person-level, born abroad, migrants vs natives, 26 LAC countries, Spain, US]
 jump:
-  - {id: profile-idb, text: IDB harmonized LAC surveys}
-  - {id: profile-epa, text: Spain EPA (HDMF)}
-  - {id: profile-us, text: US surveys}
-  - {id: fig-svy_availability, text: Rounds available}
-  - {id: fig-svy_employment_migrants_natives, text: Migrants vs natives}
-  - {id: traps, text: Known traps}
-prev: {href: europe-eurostat.html, text: "02 Europe: Eurostat"}
-next: {href: global-estimates.html, text: "04 UN DESA and global estimates"}
+  - {id: profile-idb, text: LAC surveys}
+  - {id: profile-epa, text: Spain}
+  - {id: profile-us, text: United States}
+  - {id: fig-svy_availability, text: Surveys available}
+  - {id: fig-svy_employment_migrants_natives, text: Employment}
+  - {id: traps, text: Be careful with}
+prev: {href: europe-eurostat.html, text: "02 Europe"}
+next: {href: global-estimates.html, text: "04 Global estimates"}
 blocks:
   - type: text
-    heading: One concept, three families
+    heading: One definition, three families
     html: >-
-      <p>In the IDB harmonized bank the variable <code>migrante_ci</code> flags a person born in another country.
-      Spain's EPA records the country of birth and the US ACS and CPS record the detailed birthplace. All three
-      therefore measure the first generation, independently of citizenship or legal status, and all three let the
-      same indicators (employment, participation, education, income, household composition) be computed for migrants
-      and for natives with the same code. What differs is depth: the US surveys add year of arrival and
-      naturalization, the Spanish extract adds years of residence, and the LAC bank only knows whether a migrant has
-      been in the country five years or more.</p>
+      <p>All three families flag people born in another country. So the same indicators work for migrants and natives.
+      The US surveys add the year of arrival. Spain's survey adds years of residence.
+      The LAC surveys only say whether a migrant has lived in the country five years or more.</p>
   - type: profile
     id: profile-idb
-    name: "IDB harmonized household surveys (Banco de Datos Armonizado de Encuestas de Hogares)"
-    summary: >-
-      The IDB Social Sector harmonizes the national labour-force and living-standards surveys of 26 countries into
-      one variable dictionary, one file per country, year and round, and computes 234 indicators from them, every
-      one breakable by migrant status.
+    name: IDB Harmonized Household Surveys
+    summary: National household surveys from 26 countries, put into one common format by the IDB.
     rows:
-      - ["Producer", "IDB Social Sector (SCL), from the surveys of national statistical offices: EPH and EPHC (Argentina), PNAD and PNADC (Brazil), CASEN (Chile), GEIH (Colombia), ENAHO (Costa Rica and Peru), ENCFT (Dominican Republic), ENEMDU (Ecuador), EHPM (El Salvador), ENCOVI and ENEI (Guatemala), EPHPM (Honduras), ENIGH (Mexico), ECH (Uruguay), labour force surveys in the Caribbean, among others."]
-      - ["Unit of record", "A person inside a household, with the survey's expansion factor (factor_ci) and household identifiers."]
-      - ["Geography", "National, urban and rural; regions where the survey allows."]
-      - ["Time coverage", "1986–2025. The inventory lists 567 harmonized country-year rounds up to 2022 (January 2025 snapshot); 2023–2025 rounds exist for Argentina, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Paraguay, Peru, El Salvador and Uruguay."]
-      - ["Periodicity", "Annual for most countries; quarterly or semestral rounds for Argentina, Colombia, Paraguay, the Dominican Republic and others."]
-      - ["Migration variables", "migrante_ci (born abroad), migrantiguo5_ci (migrant with five years or more in the country), miglac_ci (born in a LAC country). Country of birth (mig_pais_ci) only in the HDMF project files for Colombia, Ecuador and Peru."]
-      - ["Other variables", "Demography, education (levels, attendance, years), labour (participation, employment, informality, occupation, sector, hours, contracts, earnings), income and poverty (harmonized lines), housing and water, social protection, ethnicity and disability where asked."]
-      - ["What it does not have", "Year of arrival; citizenship or legal status; country of birth in most rounds; migrants in countries whose survey omits the birthplace question (Mexico's ENIGH 2022 and Paraguay's EPHC 2023 carry no flag in our combined file)."]
-      - ["Access", "Microdata on the IDB SURVEYS share with an access right per round (public or restricted). Harmonized indicators are disseminated through the IDB's data portals. Code is public on GitHub (EL-BID)."]
-      - ["Sample sizes", "Migrants are a small share in most countries (Colombia 4.9%, Argentina 4.9%, Dominican Republic 5.8%, Ecuador 1.5%, Peru 0.8%, Guatemala 0.6% in 2024), so single-year migrant estimates carry wide confidence intervals outside the big host countries."]
-      - ["Existing products", "A ten-survey combined file 2022–2023 with migrant status, age, sex and employment; 2024 indicator runs for six countries; the Settling In Latin America 2021 tables (natives vs foreign-born across 15 indicators) from the How do Migrants Fare project."]
+      - ["What it is", "Labour force and living-standards surveys with the same variables in every country."]
+      - ["Who produces it", "National statistical offices. The IDB harmonizes them."]
+      - ["Unit", "People in sampled households, with survey weights."]
+      - ["Coverage", "26 LAC countries, 1986–2025."]
+      - ["How often", "Every year in most countries. Some countries every quarter."]
+      - ["Migration variables", "Born in another country. Born in another LAC country. Five years or more in the country."]
+      - ["Best for", "Comparing migrants and natives on work, education, income and poverty."]
+      - ["What we have built with it", "Regional comparisons of migrants and natives. Country notes on migrant integration."]
+      - ["Access", "Each survey year is public or restricted. We share aggregates only."]
   - type: profile
     id: profile-epa
-    name: "Spain: Encuesta de Población Activa (EPA), harmonized by the HDMF project"
-    summary: >-
-      Spain hosts the largest LAC diaspora in Europe. The EPA is INE's quarterly labour-force survey; the How do
-      Migrants Fare in LAC project harmonized it with the same variable names as the LAC bank, and a special request
-      to INE adds the country of birth that the public file replaces with a region.
+    name: "Spain: Labour Force Survey"
+    summary: Spain hosts the largest LAC diaspora in Europe. About 4.4 million people born in LAC lived there in 2024.
     rows:
-      - ["Producer", "Instituto Nacional de Estadística (INE); harmonized by the IDB project How do Migrants Fare in LAC (HDMF)."]
-      - ["Unit of record", "A person inside a household; quarterly weights (an annual file stacks four quarters, so the annual weight is the quarterly factor divided by four)."]
-      - ["Time coverage", "2014 public microdata (region of birth only) and 2018–2025 special request with country of birth."]
-      - ["Periodicity", "Quarterly, used as annual stacks."]
-      - ["Migration variables", "Country of birth (paina1), nationality (nac1), years of residence in Spain (anore)."]
-      - ["Other variables", "Age, sex, employment status, hours, part-time, temporary contracts, sector, occupation (ISCO), education, household type."]
-      - ["Sample", "About 1.09 million LAC-born residents aged 16 and over in 2024 (weighted), from 27,000 person-quarter records; roughly 6,300 distinct people a year because households stay six quarters."]
-      - ["Caveats", "Standard errors are inflated by the panel overlap (factor 6T/(T+5)); the public 2014 file has no country detail; two harmonization bugs are documented (household relationship labels and temporary contracts)."]
-      - ["Existing products", "The Spain block of the Age Shift deck (pyramids, employment rates, by-country detail 2018–2024) and the Spain chapter of the Mexican diaspora draft."]
+      - ["What it is", "Spain's quarterly labour force survey."]
+      - ["Who produces it", "National Statistics Institute of Spain (INE). Harmonized with the LAC surveys by the IDB."]
+      - ["Unit", "People in sampled households, with survey weights."]
+      - ["Coverage", "Spain, 2014 and 2018–2025."]
+      - ["How often", "Every quarter."]
+      - ["Migration variables", "Country of birth, nationality and years living in Spain."]
+      - ["Best for", "Work of LAC-born residents in Spain, with the same definitions as the US data."]
+      - ["What we have built with it", "A comparison of LAC migrants in Spain and the US by age and employment."]
+      - ["Access", "The 2014 file is public. Country of birth for 2018–2025 comes from a special request to INE."]
   - type: profile
     id: profile-us
-    name: "United States: ACS and CPS (see page 01)"
+    name: "United States: American Community Survey and Current Population Survey"
     rows:
-      - ["Role here", "The ACS is the US household survey; the CPS adds the second generation. Both measure country of birth directly."]
-      - ["Comparable indicators", "Employment, participation, education and income by origin, age and sex, with the same age groups (five-year bins, 65+ open) and employment definition as the Spain block of the Age Shift deck."]
-      - ["Where to read more", "Page 01 holds the full profile, the two charts and the traps."]
+      - ["What it is", "The US household surveys. Page 01 profiles them in full."]
+      - ["Best for", "The same indicators, by country of birth, age and year of arrival."]
   - type: chart
     id: svy_availability
   - type: chart
@@ -79,29 +62,22 @@ blocks:
     id: questions
     heading: Questions it answers
     bullets:
-      - What share of each country's population was born abroad, and how it has moved over three decades of rounds.
-      - Whether migrants work more or less than natives, in which sectors, with which contracts and hours, and at what pay, with the same definitions in every country.
-      - Education and overqualification of migrants relative to natives; school attendance of migrant children.
-      - Poverty and income of migrant households against harmonized poverty lines.
-      - For Spain and the US: the same indicators by country of birth, years of residence and age, to compare the two main destinations outside the region.
+      - What share of each country's population was born abroad.
+      - Whether migrants work more or less than natives, and in which jobs.
+      - How migrants compare with natives on education, income and poverty.
+      - The same questions for LAC migrants in Spain and the US.
   - type: callouts
     id: traps
-    heading: Known traps
+    heading: Be careful with
     items:
-      - {title: "Small migrant samples", text: "Below one or two percent of the population, a single round gives a few hundred migrant records. Pool rounds or report confidence intervals; the indicator files carry standard errors and a quality flag."}
-      - {title: "Not every survey asks where you were born", text: "Mexico's ENIGH and some Paraguayan rounds have no usable birthplace question; the harmonized flag is missing rather than zero."}
-      - {title: "No year of arrival in the bank", text: "Only the five-years-or-more flag exists. Spain's EPA and the US surveys have years of residence and year of immigration."}
-      - {title: "Employment definitions are national", text: "condocup_ci follows each country's official definition of employment; cross-country gaps partly reflect that."}
-      - {title: "Panel surveys inflate precision", text: "The EPA reinterviews households for six quarters with no identifier to link them, so naive standard errors are about four times too small."}
-      - {title: "Access rights differ by round", text: "Some rounds are public, others restricted; the inventory flags each. Aggregates like the ones here can be shared, microdata cannot."}
+      - {title: "Small samples", text: "Where migrants are few, one survey year has few records. Pool years or report margins of error."}
+      - {title: "Missing questions", text: "Some surveys do not ask where people were born. Mexico's main income survey is one."}
+      - {title: "National definitions", text: "Each country defines employment its own way. Part of any gap between countries is definition."}
+      - {title: "Repeated households", text: "Spain's survey visits the same households for six quarters. Margins of error must reflect that."}
   - type: links
     heading: Pairs well with
     items:
-      - {text: "01 United States: ACS and CPS", href: us-acs.html, note: "the US family in depth."}
-      - {text: "02 Europe: Eurostat", href: europe-eurostat.html, note: "Eurostat gives the Spanish stocks and permits; the EPA gives their labour-market outcomes."}
-      - {text: "04 Global estimates", href: global-estimates.html, note: "UN DESA and FLown give the denominator when a survey underestimates recent arrivals."}
-citation: >-
-  Inter-American Development Bank, Social Sector, Harmonized Household Surveys of Latin America and the Caribbean
-  (Banco de Datos Armonizado de Encuestas de Hogares), various rounds. Instituto Nacional de Estadística (Spain),
-  Encuesta de Población Activa, microdata 2014 and special request 2018–2025, harmonized by the IDB project How do
-  Migrants Fare in LAC.
+      - {text: "01 United States", href: us-acs.html, note: "the US surveys in full."}
+      - {text: "02 Europe", href: europe-eurostat.html, note: "official counts for Spain and the rest of Europe."}
+      - {text: "04 Global estimates", href: global-estimates.html, note: "totals when a survey misses recent arrivals."}
+citation: "Inter-American Development Bank, Harmonized Household Surveys of Latin America and the Caribbean. National Statistics Institute of Spain (INE), Labour Force Survey. IDB, OECD and UNDP (2023), How do migrants fare in Latin America and the Caribbean?"

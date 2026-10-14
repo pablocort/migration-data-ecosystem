@@ -1,49 +1,44 @@
 number: "02"
-eyebrow: Europe as destination
-title: "Eurostat migration statistics, with the companion sources of the European project"
-description: Profile of the Eurostat migration, permit, asylum and enforcement datasets used to measure LAC migrants in Europe.
-lead: >-
-  Eurostat compiles what 31 national statistical institutes and interior ministries report under the EU migration
-  statistics regulation: residents by country of birth and citizenship, residence permits by reason, asylum
-  applications and decisions, naturalisations, and enforcement. It is the only source that follows legal pathways
-  and status changes, and it is all aggregate: no person-level records.
-tags: [aggregate counts, 31 reporting countries, country of birth and citizenship, permits, asylum, enforcement, 1998–2026]
+eyebrow: Europe as a destination
+title: "Europe: Eurostat migration statistics"
+description: Profile of the Eurostat statistics on migrants, permits, asylum and returns in Europe.
+lead: Official counts that about 30 European countries report to Eurostat. It is our only source on legal pathways into Europe.
+tags: [official counts, about 30 countries, permits, asylum, returns, 1998–2026]
 jump:
-  - {id: profile-eurostat, text: Eurostat datasets}
-  - {id: profile-companions, text: Companion sources}
-  - {id: fig-eu_lac_born_2024, text: LAC-born in Europe}
-  - {id: fig-eu_first_permits_reason, text: Permits by reason}
+  - {id: profile-eurostat, text: Eurostat}
+  - {id: profile-ime, text: Mexican consular records}
+  - {id: fig-eu_lac_born_2024, text: People by country}
+  - {id: fig-eu_first_permits_reason, text: Permits}
   - {id: fig-eu_asylum_first_time, text: Asylum}
-  - {id: traps, text: Known traps}
-prev: {href: us-acs.html, text: "01 United States: ACS and CPS"}
+  - {id: traps, text: Be careful with}
+prev: {href: us-acs.html, text: "01 United States"}
 next: {href: household-surveys.html, text: "03 Household surveys"}
 blocks:
   - type: profile
     id: profile-eurostat
-    name: "Eurostat migration and asylum statistics (the migr_ datasets)"
-    summary: >-
-      We keep 118 datasets in which LAC citizens or LAC-born people can be identified, downloaded in full through the
-      Eurostat dissemination API and stored as tidy tables with every code and label. A small Python client pins each
-      dataset to its totals and to the European reporting countries, so a series for any origin is one call.
+    name: Eurostat migration and asylum statistics
+    summary: Every country reports the same tables under an EU regulation. They are counts, not records of individual people.
     rows:
-      - ["Producer", "Eurostat, from national statistical institutes and interior ministries under Regulation (EC) 862/2007."]
-      - ["Unit of record", "Aggregate counts: persons (population, flows, naturalisations), permits, applications, decisions, enforcement events. No microdata."]
-      - ["Geography", "Reporting countries: EU27, EFTA (Switzerland, Iceland, Liechtenstein, Norway), the United Kingdom to 2019, and candidate countries for some series. Origin: every country, by citizenship (most datasets) or country of birth (five datasets)."]
-      - ["Time coverage", "Population by country of birth and citizenship 1998–2025; residence permits 2008–2025; asylum 2008–2026; enforcement 2008–2025; citizenship acquisitions 1998–2024."]
-      - ["Periodicity", "Annual; asylum applications and pending cases also monthly."]
-      - ["Dimensions", "Citizenship or country of birth; age; sex; permit reason (family, education, employment, other) and length; permit type (Blue Card, intra-corporate transfer, study, seasonal work); applicant type (first-time, subsequent); decision; enforcement type (overstay vs illegal entry, return type and destination)."]
-      - ["What it does not have", "Socioeconomic detail by origin (the labour-force survey tables cannot single out LAC countries); France and Germany in the born-in population series; the UK after 2019; sub-national geography."]
-      - ["Access and licence", "Open data, Creative Commons BY 4.0 with attribution; API and bulk download, revised continuously."]
-      - ["What we hold", "118 datasets as tidy parquet (1.2 billion rows, 262 MB), complete and not filtered to any origin, refreshed September 2026; the metadata catalogue and code lists; GISCO boundaries for maps."]
-      - ["Existing products", "A book draft on the Mexican diaspora outside the United States (three versions, 142 charts), a Europe-wide series 1998–2025 (stock, immigration, emigration, naturalisations), a source comparison against Gaskin and Abel and UN DESA, and 2024 return tables for Northern Central America."]
+      - ["What it is", "Official tables on migrant residents, permits, asylum, naturalisations and returns."]
+      - ["Who produces it", "Eurostat, with data from national statistical offices and interior ministries."]
+      - ["Unit", "Counts of people, permits, applications and decisions."]
+      - ["Coverage", "The EU, Iceland, Liechtenstein, Norway and Switzerland. The UK until 2019. Every country of origin."]
+      - ["How often", "Every year. Asylum data come out every month."]
+      - ["Migration variables", "Country of birth or citizenship, reason for the permit, asylum decision and type of return."]
+      - ["Best for", "How many LAC migrants live in each country, and through which legal door they arrive."]
+      - ["What we have built with it", "Profiles of LAC diasporas in Europe, with a focus on Mexico. Return statistics for Central America."]
+      - ["Access", "Free and open. Cite Eurostat."]
   - type: profile
-    id: profile-companions
-    name: "Companion sources kept in the same project"
+    id: profile-ime
+    name: Mexican consular records
+    summary: Mexico registers its nationals abroad at its consulates. The records cover places where surveys are thin.
     rows:
-      - ["IME consular records", "Instituto de los Mexicanos en el Exterior: fact sheets for 159 countries (2025) and an 11-country panel 2018–2025 of registered Mexicans by sex, mean age, children, occupation, civil status, dual nationality and state of origin. Some years repeat the previous year's figures and are flagged."]
-      - ["Spain EPA extract (HDMF)", "Person-level microdata of Mexico-born residents 2018–2025 and comparison indicators for natives and all migrants, drawn from the IDB's How do Migrants Fare project. Profiled on page 03."]
-      - ["Gaskin and Abel (2025) stocks", "Modelled stock of people born in Mexico in each of 230 destinations, 1990–2024, used to benchmark Eurostat (agreement within 2–3% when the born-in series is used). Profiled on page 04."]
-      - ["Validation", "Spain 2024, Mexico-born: Eurostat 79,581, Gaskin and Abel 77,984, UN DESA 77,724. Permit series read 76% lower than any of these because permits are not people."]
+      - ["What it is", "Yearly fact sheets on Mexicans registered at consulates."]
+      - ["Who produces it", "Institute for Mexicans Abroad, Government of Mexico."]
+      - ["Coverage", "159 countries in 2025. A series for 11 countries since 2018."]
+      - ["Migration variables", "Sex, age, occupation, state of origin in Mexico and nationality held."]
+      - ["Best for", "Mexicans outside the US."]
+      - ["Be careful", "Some years repeat the figures of the year before."]
   - type: chart
     id: eu_lac_born_2024
   - type: chart
@@ -54,30 +49,22 @@ blocks:
     id: questions
     heading: Questions it answers
     bullets:
-      - How many people born in, or holding the citizenship of, each LAC country live in each European country, and since when.
-      - Through which legal door they arrive: family, study, work or protection, and whether study permits turn into work permits.
-      - How many ask for asylum each month, by citizenship, and how their cases are decided (recognition rates, pending stock).
-      - How many naturalize, which quietly removes them from every citizenship-based series.
-      - Irregular stay (overstay vs illegal entry), orders to leave and returns, by citizenship and destination.
+      - How many people born in each LAC country live in each European country.
+      - "Through which door they arrive: family, study, work or protection."
+      - How many ask for asylum each month, and how their cases end.
+      - How many become citizens.
   - type: callouts
     id: traps
-    heading: Known traps
+    heading: Be careful with
     items:
-      - {title: "Three definitions of a national", text: "citizen = passport holder; born in = first generation whatever the passport; previous residence = anyone who moved from that country. They answer different questions and give different numbers. Use country of birth for a stable diaspora measure and citizenship for legal-status questions."}
-      - {title: "Geo aggregates sit next to countries", text: "EU27_2020 and EA20 are rows in the same column as DE or ES. Summing naively doubles the total; keep two-letter reporting countries only."}
-      - {title: "Totals next to components", text: "Every dimension carries TOTAL beside its parts (age, sex, reason). Pick the total or the parts, never both."}
-      - {title: "Two age definitions double flows", text: "Immigration, emigration and naturalisation datasets repeat totals under two age definitions (COMPLET and REACH). Pin one."}
-      - {title: "Permits are not people", text: "Stocks of valid permits exclude naturalized citizens and EU-citizen family members; first permits count documents, not arrivals. The born-in population series is the right denominator."}
-      - {title: "Reporting countries change", text: "First permits were reported by 16 countries in 2010 and 31 in 2025; Germany only from 2019. Trends need a fixed country panel."}
-      - {title: "Suppression and revisions", text: "Small counts are rounded (returns data to 5) or suppressed; OBS_FLAG carries confidentiality and break-in-series markers. Figures are revised; note the download date."}
-      - {title: "France and Germany are missing by birth", text: "Neither reports population by country of birth, which is why the stock chart on this page understates the LAC-born total in Europe."}
+      - {title: "Birth or citizenship", text: "Counts by citizenship drop people who naturalize. Use country of birth to size a diaspora."}
+      - {title: "A permit is not a person", text: "One person can hold several permits over time. Naturalized citizens hold none."}
+      - {title: "Countries come and go", text: "More countries report each year. Compare the same set of countries over time."}
+      - {title: "Gaps", text: "France and Germany do not report residents by country of birth. The UK stops in 2019."}
   - type: links
     heading: Pairs well with
     items:
-      - {text: "03 Household surveys", href: household-surveys.html, note: "Spain's EPA adds what Eurostat lacks for Spain: employment, education and income of LAC-born residents."}
-      - {text: "04 Global estimates", href: global-estimates.html, note: "UN DESA and FLown fill France and Germany and give the share of each diaspora that lives in Europe."}
-      - {text: "05 Deportation data", href: deportation-data.html, note: "Eurostat enforcement (orders to leave, returns) is the European counterpart of ICE removals."}
-citation: >-
-  Eurostat, migration and asylum statistics: datasets migr_pop3ctb, migr_pop1ctz, migr_resfirst, migr_resvalid,
-  migr_resvas, migr_asyappctza, migr_acq, migr_imm1ctz, migr_eipre, migr_eirtn1 (data extracted September 2026).
-  Licence CC BY 4.0, source: Eurostat.
+      - {text: "03 Household surveys", href: household-surveys.html, note: "Spain's survey adds work and income for LAC-born residents."}
+      - {text: "04 Global estimates", href: global-estimates.html, note: "UN and modelled estimates fill the gaps for France and Germany."}
+      - {text: "05 Deportation data", href: deportation-data.html, note: "returns from Europe next to removals from the US."}
+citation: "Eurostat, migration and asylum statistics, accessed September 2026. Licence CC BY 4.0. Institute for Mexicans Abroad, consular registration records."

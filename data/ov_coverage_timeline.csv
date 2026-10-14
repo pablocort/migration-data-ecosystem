@@ -1,23 +1,19 @@
 family,product,start,end,periodicity,unit
-01 United States,Decennial census (IPUMS USA),1980,2000,"1980, 1990, 2000","Person-level microdata, 5% samples"
-01 United States,"ACS 1-year microdata (IPUMS USA, PUMS)",2001,2024,Annual,"Person-level microdata, ~1% sample"
-01 United States,CPS ASEC (IPUMS CPS),1994,2025,Annual (March supplement),Person-level microdata; parents' birthplace
-02 Europe,Eurostat: population by country of birth / citizenship,1998,2025,Annual,Aggregate counts by reporting country
-02 Europe,Eurostat: residence permits,2008,2025,Annual,Permits (not persons) by reason and length
-02 Europe,Eurostat: asylum applications and decisions,2008,2026,Monthly and annual,Applications and decisions by citizenship
-02 Europe,"Eurostat: enforcement (irregular stay, returns)",2008,2025,Annual (quarterly for some),Persons found irregular / ordered to leave / returned
-02 Europe,Eurostat: citizenship acquisitions,1998,2024,Annual,Naturalisations by former citizenship
-02 Europe,IME consular records (Mexicans abroad),2018,2025,Annual fact sheets,"Registered Mexicans by country, 159 countries"
-03 Household surveys,IDB harmonized household surveys (26 countries),1986,2025,Annual or multi-year rounds,"Person-level microdata, migrante_ci flag"
-03 Household surveys,Spain: EPA labour force survey (HDMF extract),2014,2025,"Quarterly waves; 2014 public, 2018-2025 special request","Person-level microdata, country of birth"
-04 Global estimates,UN DESA International Migrant Stock,1990,2024,"1990-2020 every 5 years, then 2024","Bilateral stock by destination, origin, sex"
-04 Global estimates,FLown annual bilateral estimates (Azose and Raftery via Gaskin and Abel),1990,2024,Annual,Modelled bilateral stocks and flows with uncertainty
-04 Global estimates,UNHCR Refugee Data Finder,1990,2024,Annual,"Refugees, asylum-seekers, other people in need of protection"
-04 Global estimates,UN World Population Prospects 2024,1990,2024,Annual (estimates; projections to 2100),Population by age and sex
-04 Global estimates,Remittances: KNOMAD / World Bank,2000,2025,Annual,Inflows in US$ and % of GDP
-04 Global estimates,Remittances: central-bank bilateral corridors,2005,2026,Monthly / quarterly / annual (uneven),"Inflows by sending country, 15 recipients"
-05 Deportation data,ICE removals (FOIA via Deportation Data Project),2012,2026,"Daily records, used by fiscal year and month",One row per removal; FY2026 partial
-05 Deportation data,ICE arrests and detentions,2012,2026,Daily records,Arrests; detention stints collapsed to stays
-05 Deportation data,USCIS TPS and DACA applications,2000,2026,"Daily records, used monthly",One row per application
-05 Deportation data,CBP Border Patrol encounters,2016,2018,Daily records,One row per encounter (FY2019-2022 missing)
-05 Deportation data,CBP Border Patrol encounters,2023,2024,Daily records,One row per encounter
+01 United States,US census,1980,2000,Every 10 years,People
+01 United States,American Community Survey,2001,2024,Every year,People
+01 United States,Current Population Survey,1994,2025,Every year,People
+02 Europe,Eurostat: population by birth and citizenship,1998,2025,Every year,Residents
+02 Europe,"Eurostat: permits, asylum and returns",2008,2026,Every year; asylum every month,"Permits, applications, returns"
+02 Europe,Eurostat: naturalisations,1998,2024,Every year,People
+02 Europe,Mexican consular records,2018,2025,Every year,Registered Mexicans abroad
+03 Household surveys,Harmonized LAC household surveys,1986,2025,Every year in most countries,People
+03 Household surveys,Spain: Labour Force Survey,2014,2014,One year,People
+03 Household surveys,Spain: Labour Force Survey,2018,2025,Every quarter,People
+04 Global estimates,UN migrant stock,1990,2024,Every 5 years,Migrants by origin and destination
+04 Global estimates,Modelled annual migration estimates,1990,2024,Every year,Migrants by origin and destination
+04 Global estimates,UNHCR displacement data,1990,2024,Every year,Refugees and asylum-seekers
+04 Global estimates,"Remittances (World Bank, central banks)",2000,2026,Every year; some every month,US dollars
+05 Deportation data,"ICE removals, arrests and detentions",2012,2026,Every day,Events
+05 Deportation data,TPS and DACA applications,2000,2026,Every day,Applications
+05 Deportation data,Border Patrol encounters,2016,2018,Every day,Encounters
+05 Deportation data,Border Patrol encounters,2023,2024,Every day,Encounters

@@ -44,14 +44,14 @@ FIG_OUT = ROOT / "figures"
 SITE_SRC = ROOT / "site"
 SITE_OUT = ROOT / "docs"
 
-for _d in (DATA_OUT, CHARTS_OUT, FIG_OUT / "dark", FIG_OUT / "light"):
+for _d in (DATA_OUT, CHARTS_OUT, FIG_OUT):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---- chart palette (validated with the dataviz six-checks validator) --------
-# Categorical slots, fixed order, never cycled. Dark steps validated against the
-# site's chart surface #0F252E (all PASS, adjacent and first-3 all-pairs); light
-# steps validated against #fcfcfb (PASS; three slots need direct labels or the
-# table view as contrast relief, which every chart ships).
+# Categorical slots, fixed order, never cycled. The site is projected, so it uses
+# the light steps on a white chart surface (#FFFFFF): all checks pass on the
+# adjacent pairlist; aqua, yellow and magenta sit below 3:1, so charts that use
+# them carry direct labels or the table view as relief, and never as thin lines.
 CAT_DARK = ["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300", "#9085e9", "#e66767"]
 CAT_LIGHT = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
 BLUE_RAMP = {
@@ -66,9 +66,10 @@ THEME = {
         grid="#1E3640", baseline="#2E4A55", other="#6B7E86", earlier=BLUE_RAMP[250],
         colorway=CAT_DARK,
     ),
+    # projection theme: every readable text token clears 4.5:1 on white (text 16:1, text2 9:1, muted 5.7:1)
     "light": dict(
-        surface="#fcfcfb", page="#f9f9f7", text="#0b0b0b", text2="#52514e", muted="#898781",
-        grid="#e1e0d9", baseline="#c3c2b7", other="#9a9892", earlier=BLUE_RAMP[250],
+        surface="#FFFFFF", page="#FAF8F2", text="#0E1C22", text2="#33454D", muted="#5A6970",
+        grid="#E5E3DC", baseline="#B5B2A8", other="#8C8C88", earlier=BLUE_RAMP[300],
         colorway=CAT_LIGHT,
     ),
 }

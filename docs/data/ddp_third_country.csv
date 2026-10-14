@@ -1,31 +1,16 @@
-fiscal_year,group,removals
-2012,All citizenships,5736
-2013,All citizenships,4047
-2014,All citizenships,3250
-2015,All citizenships,2467
-2016,All citizenships,2594
-2017,All citizenships,3285
-2018,All citizenships,3144
-2019,All citizenships,3106
-2020,All citizenships,2754
-2021,All citizenships,1217
-2022,All citizenships,2525
-2023,All citizenships,4505
-2024,All citizenships,30839
-2025,All citizenships,36696
-2026,All citizenships,9571
-2012,LAC citizens,3913
-2013,LAC citizens,2914
-2014,LAC citizens,2213
-2015,LAC citizens,1474
-2016,LAC citizens,1519
-2017,LAC citizens,2011
-2018,LAC citizens,1829
-2019,LAC citizens,1793
-2020,LAC citizens,2004
-2021,LAC citizens,748
-2022,LAC citizens,1451
-2023,LAC citizens,2444
-2024,LAC citizens,19983
-2025,LAC citizens,27837
-2026,LAC citizens,8872
+Fiscal year,All citizenships,LAC citizens
+2012,5736,3913
+2013,4047,2914
+2014,3250,2213
+2015,2467,1474
+2016,2594,1519
+2017,3285,2011
+2018,3144,1829
+2019,3106,1793
+2020,2754,2004
+2021,1217,748
+2022,2525,1451
+2023,4505,2444
+2024,30839,19983
+2025,36696,27837
+2026,9571,8872

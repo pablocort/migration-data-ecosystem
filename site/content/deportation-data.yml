@@ -1,98 +1,80 @@
 number: "05"
-eyebrow: US immigration enforcement, record by record
-title: "Deportation Data Project: ICE, USCIS and CBP records"
-description: Profile of the record-level US immigration enforcement data released under FOIA and compiled by the Deportation Data Project.
-lead: >-
-  The Deportation Data Project obtains individual-level records from US immigration agencies through Freedom of
-  Information Act requests and publishes them with documentation. We hold ICE removals, arrests and detentions
-  from fiscal year 2012 to March 2026, every TPS and DACA application since 2000, and partial Border Patrol
-  encounter files. It is the only source that sees enforcement one person, one event at a time.
-tags: [record-level, FOIA, ICE removals, detentions, USCIS TPS and DACA, CBP encounters, FY2012–FY2026, monthly]
+eyebrow: US immigration enforcement
+title: "Deportation Data Project: ICE and USCIS records"
+description: Profile of the US immigration enforcement records released through public records requests and published by the Deportation Data Project.
+lead: Records of US immigration enforcement, released through public records requests. Each row is one event, such as a removal, an arrest, a detention or an application.
+tags: [records, ICE removals, detentions, TPS and DACA, 2012–2026, every month]
 jump:
   - {id: profile-ice, text: ICE records}
-  - {id: fig-ddp_removals_fy, text: Removals by year}
-  - {id: fig-ddp_third_country, text: Third-country removals}
-  - {id: profile-uscis, text: USCIS applications}
+  - {id: fig-ddp_removals_fy, text: Removals}
+  - {id: fig-ddp_third_country, text: Third countries}
+  - {id: profile-uscis, text: TPS and DACA}
   - {id: fig-ddp_tps_backlog, text: TPS backlog}
-  - {id: profile-cbp, text: CBP encounters}
-  - {id: traps, text: Known traps}
-prev: {href: global-estimates.html, text: "04 UN DESA and global estimates"}
-next: {href: concepts.html, text: "Concepts and comparability"}
+  - {id: traps, text: Be careful with}
+prev: {href: global-estimates.html, text: "04 Global estimates"}
+next: {href: concepts.html, text: "Concepts"}
 blocks:
   - type: profile
     id: profile-ice
-    name: "ICE removals, arrests and detentions"
-    summary: >-
-      Two FOIA releases (2023-ICFO-42034 and 2026-ICLI-00005) cover fiscal years 2012 to 2026 and overlap in
-      FY2023. Our pipeline reads the spreadsheets, reconciles column names, keeps the newer batch for FY2023,
-      stacks removals with arrests that carry a final order, and collapses detention stints into continuous stays.
+    name: ICE removals, arrests and detentions
+    summary: Records of people removed, arrested or detained by US Immigration and Customs Enforcement.
     rows:
-      - ["Producer", "US Immigration and Customs Enforcement records released under FOIA; compiled, cleaned and documented by the Deportation Data Project (deportationdata.org)."]
-      - ["Unit of record", "One row per removal, per administrative arrest, or per detention stint (a facility book-in), with an anonymized person identifier. Stints are collapsed to stays: 11.1 million stints become 4.8 million stays of 4.1 million people."]
-      - ["Geography", "United States; departure country and port; area of responsibility, state and county in the newer batch (state is filled for only 9% of FY2024 removals)."]
-      - ["Time coverage", "FY2012 to 11 March 2026 (FY2026 partial). Citizenship and birth country in detention records only from FY2023."]
-      - ["Periodicity", "Daily records, used by fiscal year (October to September) and by month."]
-      - ["Variables", "Citizenship country, birth country, gender, birth year, entry status, entry date, apprehension date, departure date, country and port, case category and status, final order, criminality (charges, threat level, convictions), arresting agency, programme, prior deportation, gang or terrorist flags; detention: facility, book-in and book-out dates, release reason, classification, bond."]
-      - ["Size", "3.8 million removal rows (3.68 million after deduplication), 4.2 million enforcement rows, 6.3 GB of detention records."]
-      - ["Strengths", "Monthly series by citizenship since October 2011; third-country removals (departure country different from citizenship); time since last entry; the profile shift of 2025 (interior arrests, convictions, time in the country)."]
-      - ["Access", "Public download with documentation; citation to the Deportation Data Project required."]
-      - ["Existing products", "Removals by fiscal year for the 26 IDB countries (3.5 million, 95.5% of all removals), by sex and age, removals to third countries, mean and median age by citizenship and by destination, time in the US before removal, the 2024-vs-2025 profile, a monthly series for El Salvador, and a map of removals aged 40 and over by state."]
+      - ["What it is", "One row per removal, arrest or detention, with an anonymous person number."]
+      - ["Who produces it", "US Immigration and Customs Enforcement. Published by the Deportation Data Project."]
+      - ["Unit", "Events, not people. One person can appear several times."]
+      - ["Coverage", "The United States, October 2011 to March 2026."]
+      - ["How often", "Daily records, used by month and by fiscal year."]
+      - ["Migration variables", "Citizenship, country of birth, entry date, removal country, criminal history and arresting agency."]
+      - ["Best for", "Who is removed, how many, and to which country."]
+      - ["What we have built with it", "Quarterly reports on removals to the region. Profiles of people removed in 2024 and 2025."]
+      - ["Access", "Free and public. Cite the Deportation Data Project."]
   - type: chart
     id: ddp_removals_fy
   - type: chart
     id: ddp_third_country
   - type: profile
     id: profile-uscis
-    name: "USCIS Temporary Protected Status and DACA applications"
-    summary: >-
-      Application-level records of the two main discretionary protections, released in Mukherjee v. USCIS and
-      published by the project in August 2026. A pending TPS stock of 1.16 million applications in February 2026
-      is visible nowhere else at this frequency.
+    name: TPS and DACA applications
+    summary: Every application to two US protection programs since 2000.
     rows:
-      - ["Producer", "US Citizenship and Immigration Services; compiled by the Deportation Data Project."]
-      - ["Unit of record", "One row per application (form I-821 for TPS, I-821D for DACA), not per person: 11.2 million rows, 6.7 million TPS and 4.5 million DACA."]
-      - ["Time coverage", "January 2000 to 11 February 2026 (DACA from August 2012)."]
-      - ["Periodicity", "Daily receipt and decision dates, used monthly."]
-      - ["Variables", "Receipt date, decision date and outcome, form type, initial or renewal, country of birth, sex, age group."]
-      - ["Strengths", "Backlogs and decision times by month; Haitian TPS stock reconstructed (290,000 probably in force vs 353,000 in DHS counts)."]
-      - ["Caveats", "Pending applications carry a placeholder decision date; the DACA form-type field is contaminated (use the filled-in version); receipts and decisions run on different clocks; USCIS splits by birth country while ICE splits by citizenship."]
+      - ["What it is", "Applications for Temporary Protected Status (TPS) and Deferred Action for Childhood Arrivals (DACA)."]
+      - ["Who produces it", "US Citizenship and Immigration Services. Published by the Deportation Data Project."]
+      - ["Unit", "Applications, not people. Renewals repeat."]
+      - ["Coverage", "2000 to February 2026. DACA starts in 2012."]
+      - ["How often", "Daily records, used by month."]
+      - ["Migration variables", "Country of birth, sex, age group, first application or renewal, and decision."]
+      - ["Best for", "How many people apply, how fast cases are decided, and how many wait."]
+      - ["What we have built with it", "Monthly series of TPS and DACA. An estimate of Haitians with TPS."]
+      - ["Access", "Free and public. Cite the Deportation Data Project."]
   - type: chart
     id: ddp_tps_backlog
   - type: profile
     id: profile-cbp
-    name: "CBP Border Patrol encounters"
+    name: Border Patrol encounters
     rows:
-      - ["Unit of record", "One row per encounter (apprehension) by the US Border Patrol."]
-      - ["Time coverage", "FY2016–FY2018 and FY2023–FY2024; FY2019–FY2022 missing."]
-      - ["Status", "Only Honduras has been processed locally; provenance of the files is not documented in the folder. For encounter totals we use DHS OHSS published tables instead."]
+      - ["What it is", "One row per encounter at the US border."]
+      - ["Coverage", "2016–2018 and 2023–2024. The years in between are missing."]
+      - ["Best for", "Arrivals at the border by citizenship, in the years we have."]
   - type: text
     id: questions
     heading: Questions it answers
     bullets:
-      - How many citizens of each LAC country ICE removed each month and fiscal year since 2012, and what share of all removals LAC represents (92% in FY2025).
-      - Who is being removed: sex, age, time since last entry, criminal history, arresting agency (border vs interior), prior deportations, and how that profile changed between 2024 and 2025.
-      - Removals to a third country, from 4,500 in FY2023 to 36,700 in FY2025, by citizenship and destination.
-      - Detention: how long people are held, where, and whether the stay ends in removal.
-      - TPS and DACA: applications filed and decided per month, pending stock, decision times, by country of birth.
+      - How many citizens of each LAC country the US removes each month.
+      - "Who is removed: age, sex, time in the US and criminal history."
+      - How many are sent to a country that is not their own.
+      - How many people wait for a TPS or DACA decision.
   - type: callouts
     id: traps
-    heading: Known traps
+    heading: Be careful with
     items:
-      - {title: "FY2023 appears twice", text: "Both FOIA batches cover FY2023. Tables built before April 2026 sum them and show 295,450 instead of 151,819. Use only deduplicated tables."}
-      - {title: "Fiscal, not calendar", text: "FY2025 runs from October 2024 to September 2025. Calendar-year cuts exist for the age tables and the profile analysis; the two are not comparable column by column."}
-      - {title: "FY2026 is a stub", text: "Records stop on 11 March 2026. Hatched in the chart; never read as a drop."}
-      - {title: "Entry date is the last entry", text: "Time in the US before removal measures time since the last recorded entry, with a median of 33 days for border cases. It is not length of residence."}
-      - {title: "Removals are not all departures", text: "CBP returns and Title 42 expulsions (FY2020–FY2022) are not in these files; those years look empty for that reason."}
-      - {title: "Four Caribbean spellings", text: "ICE writes St. Lucia, St. Vincent-Grenadines, Antigua-Barbuda and St. Kitts-Nevis in a form the country lists miss; 785 removals vanish from most LAC tables."}
-      - {title: "Age is approximate", text: "Birth dates are redacted; age is the year minus the birth year, so fiscal-year ages run up to one year high for October to December departures."}
-      - {title: "Reliability warning", text: "The project itself flagged concerns about the March 2026 removals release. Compare with ICE's own annual report before publishing a 2026 figure."}
+      - {title: "Fiscal years", text: "A US fiscal year runs from October to September. FY2025 began in October 2024."}
+      - {title: "Partial year", text: "Records stop in March 2026. The low FY2026 bar is not a drop."}
+      - {title: "Expulsions are not removals", text: "Pandemic-era expulsions in 2020–2022 are not in these records. Those years look low for that reason."}
+      - {title: "Last entry, not arrival", text: "The entry date is the last recorded entry. It does not show how long someone lived in the US."}
   - type: links
     heading: Pairs well with
     items:
-      - {text: "01 United States: ACS and CPS", href: us-acs.html, note: "removals relative to the stock of each origin, keeping in mind citizenship versus birth."}
-      - {text: "02 Europe: Eurostat", href: europe-eurostat.html, note: "orders to leave and returns are the European counterpart."}
-      - {text: "04 Global estimates", href: global-estimates.html, note: "removals and detentions are joined to remittance corridors in the derived panels; returnee registries complete the picture on the LAC side."}
-citation: >-
-  Deportation Data Project (deportationdata.org): ICE removals, arrests and detentions (FOIA 2023-ICFO-42034 and
-  2026-ICLI-00005); USCIS TPS and DACA application data released in Mukherjee v. USCIS; CBP Border Patrol
-  encounter data. Data accessed March and August 2026.
+      - {text: "01 United States", href: us-acs.html, note: "removals next to the size of each diaspora."}
+      - {text: "02 Europe", href: europe-eurostat.html, note: "returns from Europe."}
+      - {text: "04 Global estimates", href: global-estimates.html, note: "remittances to the same countries."}
+citation: "Deportation Data Project (deportationdata.org): ICE removals, arrests and detentions; USCIS TPS and DACA applications; Border Patrol encounters. Records obtained under the Freedom of Information Act."

@@ -1,24 +1,24 @@
-iso3,country,year,remittances_musd,pct_gdp
-NIC,Nicaragua,2024,5243.1,26.61
-HND,Honduras,2024,9510.2,25.7
-SLV,El Salvador,2024,8479.7,24.02
-GTM,Guatemala,2024,21510.2,19.04
-HTI,Haiti,2024,4655.0,17.77
-JAM,Jamaica,2024,3357.9,16.71
-DOM,Dominican Republic,2024,10756.3,8.61
-GUY,Guyana,2024,1386.91,5.62
-ECU,Ecuador,2024,6539.78,5.36
-BLZ,Belize,2024,165.4,4.82
-SUR,Suriname,2024,160.31,3.59
-MEX,Mexico,2024,64746.29,3.5
-COL,Colombia,2024,11848.29,2.83
-BOL,Bolivia,2024,1264.92,2.61
-PER,Peru,2024,4934.0,1.71
-PRY,Paraguay,2024,731.83,1.66
-TTO,Trinidad and Tobago,2024,356.3,1.4
-CRI,Costa Rica,2024,650.2,0.68
-PAN,Panama,2024,467.58,0.53
-CHL,Chile,2024,650.2,0.2
-BRA,Brazil,2024,4247.0,0.2
-URY,Uruguay,2024,132.0,0.16
-ARG,Argentina,2024,881.61,0.14
+Country,Remittances (US$ million),Share of GDP (%)
+Nicaragua,5243.1,26.61
+Honduras,9510.2,25.7
+El Salvador,8479.7,24.02
+Guatemala,21510.2,19.04
+Haiti,4655.0,17.77
+Jamaica,3357.9,16.71
+Dominican Republic,10756.3,8.61
+Guyana,1386.91,5.62
+Ecuador,6539.78,5.36
+Belize,165.4,4.82
+Suriname,160.31,3.59
+Mexico,64746.29,3.5
+Colombia,11848.29,2.83
+Bolivia,1264.92,2.61
+Peru,4934.0,1.71
+Paraguay,731.83,1.66
+Trinidad and Tobago,356.3,1.4
+Costa Rica,650.2,0.68
+Panama,467.58,0.53
+Chile,650.2,0.2
+Brazil,4247.0,0.2
+Uruguay,132.0,0.16
+Argentina,881.61,0.14

@@ -8,6 +8,10 @@ Inputs
     leave this script; the file itself is never copied into the repo.
   * comparadores.parquet (HDMF extract of Spain's EPA): indicators of natives and
     all migrants; epa_lac_2018_2024.csv: LAC-born persons in the EPA 2018-2024.
+    Its `factor` is already the annual-average weight (quarterly factor / 4): summing
+    it over the four quarters of a year gives the annual population (about 4.4 million
+    LAC-born in 2024, in line with Eurostat and UN DESA). Do not divide it again.
+    Rates are ratios, so they do not depend on this scale.
   * data/us_employment_lac_born.csv written by extract_acs.
 
 Outputs (data/):
